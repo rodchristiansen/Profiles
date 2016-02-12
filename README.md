@@ -1,6 +1,6 @@
 # Profiles
 
-My struggle to understand and set up profiles the past few months led me to create a master template that is clear to understand and reproducible for many different system and application settings.
+In my struggles to understand and deploy profiles in the past few months led me to create a master template that is clear to understand and reproducible for many different system and application settings.
 
 Containing commentary on each section this is a great way for first timers in the world of management profiles.
 
