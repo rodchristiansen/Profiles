@@ -51,10 +51,6 @@
 			<key>PayloadIdentifier</key>
 			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
 			<string>com.organization.TARGETED_PLIST_NAME.GENERATE_ANOTHER_UUID</string>
-			
-			<key>PayloadDisplayName</key>
-			<!-- Your choice, I match with the plist name, CamelCase it -->
-			<string>DISPLAY_NAME_INSIDE_PROFILE_PANEL</string>
 
 			<key>PayloadUUID</key>
 			<!-- Generate an UUID with uuidgen command in Terminal  -->
