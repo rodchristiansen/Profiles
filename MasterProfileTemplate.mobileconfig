@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>PROFILE_NAME</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>com.organization.PROFILE_NAME</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>GENERATED_UUID_01</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System_OR_User</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>Organization_Name</string>
+	
+
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>com_company_PLISTNAME_REVERSE_DOMAIN_01</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>com.organization.TARGETED_PLIST_NAME.GENERATE_ANOTHER_UUID</string>
+			
+			<key>PayloadDisplayName</key>
+			<!-- Your choice, I match with the plist name, CamelCase it -->
+			<string>DISPLAY_NAME_INSIDE_PROFILE_PANEL</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>GENERATED_UUID_02</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>SETTING_KEY_01</key>
+			<true/>
+			<key>SETTING_KEY_02</key>
+			<false/>
+			<key>SETTING_KEY_03</key>
+			<integer>1</integer>
+			<key>SETTING_KEY_04</key>
+			<string></string>								
+		</dict>
+	
+		<!-- You can target multiple plists by adding additional dict blocks like the first one above -->
+
+		<dict>					
+			<key>PayloadType</key>
+			<string>com_company_PLISTNAME_REVERSE_DOMAIN_02</string>
+			<key>PayloadIdentifier</key>
+			<string>com.organization.TARGETED_PLIST_NAME.GENERATE_ANOTHER_UUID</string>
+			<key>PayloadDisplayName</key>
+			<string>DISPLAY_NAME_INSIDE_PROFILE_PANEL</string>
+			<key>PayloadUUID</key>
+			<string>GENERATED_UUID_03</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>		
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>SETTING_KEY_01</key>
+			<true/>
+			<key>SETTING_KEY_02</key>
+			<false/>
+			<key>SETTING_KEY_03</key>
+			<integer>1</integer>
+			<key>SETTING_KEY_04</key>
+			<string></string>	
+		</dict>		
+	</array>
+</dict>
+</plist>
