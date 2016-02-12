@@ -27,7 +27,6 @@
 	<!-- Always the same for your organization -->	
 	<string>Organization_Name</string>
 	
-
 	<key>PayloadRemovalDisallowed</key>
 	<!-- Ask admin password to remove profile -->
 	<true/>	
