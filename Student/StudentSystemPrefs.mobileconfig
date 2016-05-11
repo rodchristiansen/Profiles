@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.profile.StudentSystemPrefs</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B40E4675-0015-4889-B99A-1AC7A40992B7</string>
+	<key>PayloadOrganization</key>
+	<string>Emily Carr University</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>StudentSystemPrefs</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.Server.local.d5fbeccd-8863-4b72-941f-b5a4c62859b5.alacarte.macosxrestrictions.b52f83a0-c1e0-0132-4f72-000c29b48376.systempreferences</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadUUID</key>
+			<string>deffa4b8-cb96-4fe0-7f0b-46fdd0f6d352</string>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences</string>
+			<key>DisabledPreferencePanes</key>
+			<array>
+				<string>com.apple.preferences.users</string>
+				<string>com.apple.preferences.appstore</string>
+				<string>com.apple.preferences.softwareupdate</string>
+				<string>com.apple.preference.datetime</string>
+				<string>com.apple.preference.desktopscreeneffect</string>
+				<string>com.apple.preference.energysaver</string>
+				<string>com.apple.preferences.extensions</string>
+				<string>com.apple.prefpanel.fibrechannel</string>
+				<string>com.apple.preferences.icloud</string>
+				<string>com.apple.preferences.internetaccounts</string>
+				<string>com.apple.Localization</string>
+				<string>com.apple.preference.network</string>
+				<string>com.apple.preference.notifications</string>
+				<string>com.apple.preferences.parentalcontrols</string>
+				<string>com.apple.preference.printfax</string>
+				<string>com.apple.preference.security</string>
+				<string>com.apple.preferences.sharing</string>
+				<string>com.apple.preference.startupdisk</string>
+				<string>com.apple.prefs.backup</string>
+				<string>com.apple.Xsan</string>
+			</array>
+			<key>HiddenPreferencePanes</key>
+				<array>
+					<string>com.apple.preferences.parentalcontrols</string>							
+				</array>
+		</dict>
+	</array>
+</dict>
+</plist>

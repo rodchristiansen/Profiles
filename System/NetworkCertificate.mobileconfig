@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<data>
+			MIID3zCCAsegAwIBAgIBBzANBgkqhkiG9w0BAQUFADCBtjELMAkG
+			A1UEBhMCQ0ExGTAXBgNVBAgTEEJyaXRpc2ggQ29sdW1iaWExEjAQ
+			BgNVBAcTCVZhbmNvdXZlcjEuMCwGA1UEChMlRW1pbHkgQ2FyciBV
+			bml2ZXJzaXR5IG9mIEFydCArIERlc2lnbjEdMBsGCSqGSIb3DQEJ
+			ARYOYWRtaW5AZWN1YWQuY2ExKTAnBgNVBAMTIEVtaWx5IENhcnIg
+			Q2VydGlmaWNhdGUgQXV0aG9yaXR5MB4XDTEyMTAxMTIyNTQ1NFoX
+			DTEzMTAxMTIyNTQ1NFowgZUxCzAJBgNVBAYTAkNBMRkwFwYDVQQI
+			ExBCcml0aXNoIENvbHVtYmlhMS4wLAYDVQQKEyVFbWlseSBDYXJy
+			IFVuaXZlcnNpdHkgb2YgQXJ0ICsgRGVzaWduMRwwGgYDVQQDExNy
+			YWRpdXMuaXRzLmVjaWFkLmNhMR0wGwYJKoZIhvcNAQkBFg5hZG1p
+			bkBlY3VhZC5jYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+			ggEBAKXLcdklZOe2XzfH4YOgh+9jy55UuG7Ex2sFRWDMs4BTPJ9m
+			B10DvEecQa3E+7VyKFecZSNpSdUF8fXWhX/XlAO4liQ76WASOukJ
+			0Z2sJBV3V0N0f1MvAoaORAmwwU4aRCvnkA007QSBITQfLEJHScsV
+			A/YeCThpSici4GL2ErBkEbyEA83cy5keRwKSqlFhw7+DfEfQw97F
+			i3O+ilAnLoymxCovDZosZXXYwfyUvRknznN/gCXcaoTT6Sh26xpX
+			bYOOim/F3n6DqHwloaKKpalmnqcKjotTPDm0xBRDf3JXV5u2jdEP
+			KcwD/e7O0AEpOCGzkTLV+7At9p0UxsM+uO0CAwEAAaMXMBUwEwYD
+			VR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQEFBQADggEBAJzN
+			qJmdiSJRM+jSmAhkZ2FGNIqzckxK7HrFmB0xBbKjUP52JJhv9rH4
+			EAPN32ylYtxSpcH4pmSuitq8KdZqixxLzza+5HOWJEN8qX3+jDcu
+			nnQVmdRDlQmp2mDnsTMZnKHNjbUJkddaTXmDyjvj8k6V8eacVM2l
+			w/onLQxC6WApTpEHI/aR4o4qmPDtoquZ0T+YtjadougaewrMGO/t
+			6v2R2Cw54lcJFhR/H0J2XdZt0umqcLl66vWX3tJETMGt/CCiPy1Z
+			gCqqXvqAHlngiXNOXIQHMDyTYi7Jv6Ded3M22x0x3DC0pwxbklP3
+			RGgTmDhWXwjOE6b4OSRup4NNi1I=
+			</data>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.pluto.edu.ecuad.ca.5eac5970-b29a-0133-ae5f-685b35b66dcf.alacarte.certificate.f1c0b37b-afdd-4828-8c5f-83b2866648a0</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>f1c0b37b-afdd-4828-8c5f-83b2866648a0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>NetworkCertificate</string>
+	<key>PayloadIdentifier</key>
+	<string>NetworkCertificate</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5eac5970-b29a-0133-ae5f-685b35b66dcf</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

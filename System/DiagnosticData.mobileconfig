@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.DiagnosticData</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6251D492-2EE3-481D-A794-37C55D64763B</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>DiagnosticData</string>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.SubmitDiagInfo</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DiagnosticData.CD6FAC4A-0391-425A-A8FE-B6CDFA643841.privacy.64B7DD5C-AC8C-4849-87DA-4BF8D586B50A.SubmitDiagInfo</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadUUID</key>
+			<string>0C834643-3949-460D-BD6F-0CFFF3F238B6</string>
+			<key>PayloadDisplayName</key>
+			<string>SubmitDiagInfo</string>
+			<key>AutoSubmit</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DiagnosticData.44FC74B7-49D3-4E15-82E6-1BC5EDA95E6D.privacy.50DFC2A7-0003-4425-8FD5-76C210BBFCF0.applicationaccess</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadUUID</key>
+			<string>F7128B4C-DB81-493B-BA67-3238F737E82D</string>
+			<key>PayloadDisplayName</key>
+			<string>ApplicationAccess</string>
+			<key>allowDiagnosticSubmission</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

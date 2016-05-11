@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>AdobePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.AdobePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>91A7BD07-7DB1-41D1-9DB0-184DF624244D</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>User</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>com.adobe.Acrobat.Pro</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>ca.ecuad.mactech.adobe.Acrobat.Pro.0156F908-A38B-454B-B5A9-BD405A729722</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>367CB364-C09A-48CD-9F7F-42745869A071</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>DC</key>
+				<dict>
+				<key>AVAlert</key>
+					<dict>
+						<key>Checkbox</key>
+						<array>
+							<integer>8</integer>
+							<dict>
+								<key>OptionToOwn</key>
+									<integer>1</integer>
+							</dict>
+						</array>
+					</dict>								
+				</dict>
+			<key>EULAAcceptedForBrowser</key>
+			<true/>
+			<key>ShowSplashScreen</key>
+			<false/>
+			<key>AVGeneral</key>
+				<dict>			
+					<key>isFirstLaunch</key>
+					<array>
+					<integer>0</integer>
+					<false/>
+					</array>
+					<key>ShowSplashScreen</key>
+					<array>
+					<false/>
+					<integer>0</integer>
+					</array>
+				</dict>
+		</dict>		
+	</array>
+</dict>
+</plist>

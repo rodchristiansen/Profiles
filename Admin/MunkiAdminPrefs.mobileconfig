@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+<!-- Match the name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<key>PayloadDisplayName</key>
+	<string>MunkiAdminPrefs</string>
+
+<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.MunkiAdminPrefs</string>
+
+<!-- Generate an UUID with uuidgen command in Terminal  -->
+	<key>PayloadUUID</key>
+	<string>F1279D25-23A1-498F-AF22-AADD5F04247D</string>
+
+<!-- Choose if its System or User level profile -->
+	<key>PayloadScope</key>
+	<string>User</string>
+
+<!-- Optional -->
+	<key>PayloadDescription</key>
+	<string>Mounts Repo and sets up app prefs</string>
+	
+<!-- Always the same -->	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+<!-- Ask admin password to remove profile -->
+	<key>PayloadRemovalDisallowed</key>
+	<false/>	
+	
+<!-- Never Change -->	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+<!-- Here is where you target your plist and managed settings -->
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+		
+		<!-- Target plist with Settings -->
+			<key>PayloadType</key>
+			<string>com.hjuutilainen.MunkiAdmin</string>
+
+		<!-- This identifier matches the targeted plist name -->
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.MunkiAdminPrefs</string>
+			
+		<!-- Match with the plist name, CamelCase it-->
+			<key>PayloadDisplayName</key>
+			<string>MunkiAdminPrefs</string>
+
+		<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<key>PayloadUUID</key>
+			<string>E4BF709D-671F-4A4A-A661-A7012BF60A01</string>
+
+		<!-- Never Change -->	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+
+		<!-- Managed Settings -->
+			<key>DevMateAnalyticsEnabled</key>
+			<true/>
+			<key>DevMateAnalyticsPermissionAsked</key>
+			<true/>
+			<key>DevMateLaunchCount</key>
+			<integer>1</integer>
+			<key>NSNavLastRootDirectory</key>
+			<string>/Volumes/DeploymentRepository/MunkiRepo/manifests</string>								
+			<key>openRepositoryLastDir</key>
+			<string>/Volumes/DeploymentRepository/MunkiRepo</string>
+			<key>selectedRepositoryPath</key>
+			<string>/Volumes/DeploymentRepository/MunkiRepo</string>
+			<key>sidebarDirectoriesVisible</key>
+			<false/>
+			<key>sidebarInstallerTypesVisible</key>
+			<false/>
+			<key>startupWhatToDo</key>
+			<integer>2</integer>
+
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>FacultyManifest</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>FacultyManifest</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>09C43480-8378-456C-8BC1-A696D521B759</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>com.apple.ManagedClient.preferences</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>ca.ecuad.mactech.FacultyManifest.FD9892A8-D60C-4CE7-97F5-CAC230C9881E</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>A144B35D-5C0E-42A0-A8F2-BB998DA4DB06</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>PayloadContent</key>
+			<dict>
+				<key>ManagedInstalls</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ClientIdentifier</key>
+								<string>faculty</string>
+								<key>InstallAppleSoftwareUpdates</key>
+								<false/>
+								<key>SuppressAutoInstall</key>
+								<false/>
+								<key>SuppressLoginwindowInstall</key>
+								<false/>																																			
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>				
+		</dict>
+	</array>
+</dict>
+</plist>

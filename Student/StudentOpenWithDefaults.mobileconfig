@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>StudentOpenWithDefaults</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.StudentOpenWithDefaults</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>2CDF54A3-5942-44CD-8D8C-3200C1461527</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string>Sets default apps to open files with.</string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>com.apple.launchservices.secure</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>ca.ecuad.mactech.StudentOpenWithDefaults.5133ACC9-4E5E-48D6-8FAE-391C9F4D5954</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>6BF96264-D64A-4032-9CF4-FEC0CBDBE99F</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>LSHandlers</key>
+			<array>							
+				<dict>
+					<key>LSHandlerContentType</key>
+					<string>public.mp3</string>
+					<key>LSHandlerPreferredVersions</key>
+					<dict>
+						<key>LSHandlerRoleAll</key>
+						<string>-</string>
+					</dict>
+					<key>LSHandlerRoleAll</key>
+					<string>com.apple.quicktimeplayerx</string>
+				</dict>
+			</array>			
+		</dict>	
+	</array>
+</dict>
+</plist>

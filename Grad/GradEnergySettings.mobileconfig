@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.MCX</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DisableGuestAccount</key>
+								<true/>
+								<key>com.apple.EnergySaver.desktop.ACPower</key>
+								<dict>
+									<key>Automatic Restart On Power Loss</key>
+									<integer>1</integer>
+									<key>Disk Sleep Timer-boolean</key>
+									<false/>
+									<key>Display Sleep Timer</key>
+									<integer>0</integer>
+									<key>Sleep On Power Button</key>
+									<integer>1</integer>
+									<key>System Sleep Timer</key>
+									<integer>0</integer>
+									<key>Wake On LAN</key>
+									<integer>1</integer>
+								</dict>
+								<key>com.apple.EnergySaver.desktop.Schedule</key>
+								<dict>
+									<key>RepeatingPowerOff</key>										
+									<key>RepeatingPowerOn</key>										
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.c205bf38-e195-421e-8a03-964c435edbd5.alacarte.customsettings.33f5a2b7-1850-481c-974a-553b1e576727</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>33f5a2b7-1850-481c-974a-553b1e576727</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Grad Energy Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>GradEnergySettings</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.GradEnergySettings</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>c205bf38-e195-421e-8a03-964c435edbd5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

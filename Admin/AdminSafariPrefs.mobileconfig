@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>AdminSafariPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.AdminSafariPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>FBA43009-63B5-4D7A-8747-C4FB92F68849</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>User</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>com.apple.Safari</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>ca.ecuad.mactech.AdminSafariPrefs.0AFA5EC0-066E-4DF4-A3C8-C35AC99BEDB0</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>B8E2D3B7-3F59-46D9-8455-F32662B9476C</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>AlwaysShowFavoritesBarInFullScreen</key>
+			<false/>
+			<key>AlwaysShowTabBar</key>
+			<false/>
+			<key>AlwaysShowTabBarInFullScreen</key>
+			<false/>
+			<key>AutoFillCreditCardData</key>
+			<false/>
+			<key>AutoFillFromAddressBook</key>
+			<false/>
+			<key>AutoFillMiscellaneousForms</key>
+			<false/>
+			<key>AutoFillPasswords</key>
+			<false/>
+			<key>AutoShowToolbarInFullScreen</key>
+			<false/>
+			<key>CanPromptForPushNotifications</key>
+			<false/>					
+			<key>ExtensionsEnabled</key>
+			<true/>
+			<key>HomePage</key>
+			<string>favorites://</string>
+			<key>LastSafariVersionWithWelcomePage</key>
+			<string>9.0</string>
+			<key>LocalFileRestrictionsEnabled</key>
+			<true/>
+			<key>SendDoNotTrackHTTPHeader</key>
+			<true/>
+			<key>ShowFavoritesBar-v2</key>
+			<false/>
+			<key>ShowFullURLInSmartSearchField</key>
+			<true/>
+			<key>ShowSidebarInTopSites</key>
+			<false/>
+		</dict>	
+	</array>
+</dict>
+</plist>

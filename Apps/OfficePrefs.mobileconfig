@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>OfficePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.OfficePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>8F837D58-2537-48A3-A02D-12955832BD17</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.Excel</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.ExcelPrefs.49F5465E-1EE1-48B2-BEAA-FED739E318DB</string>
+			<key>PayloadUUID</key>
+			<string>F81391F8-4A4B-4475-8A49-6D12A11C5785</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>DefaultsToLocalOpenSave</key>
+			<true/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+			<key>OUIWhatsNewLastShownLink</key>
+			<string>624954</string>
+			<key>SendAllTelemetryEnabled</key>
+			<false/>				
+		</dict>
+		
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.PowerPoint</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PowerPointPrefs.6F849A5F-31F1-4596-BB34-B47A6973F5A5</string>
+			<key>PayloadUUID</key>
+			<string>12D2E65E-02E4-4806-B0A4-F82FB82CC891</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>DefaultsToLocalOpenSave</key>
+			<true/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+			<key>OUIWhatsNewLastShownLink</key>
+			<integer>624953</integer>
+			<key>SendAllTelemetryEnabled</key>
+			<false/>					
+		</dict>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.Word</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.WordPrefs.7D646E85-39ED-4690-B83A-54A10B989575</string>
+			<key>PayloadUUID</key>
+			<string>208BD78E-7840-45F0-89E0-B93B70E7EB50</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>DefaultsToLocalOpenSave</key>
+			<true/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+			<key>OUIWhatsNewLastShownLink</key>
+			<integer>624953</integer>
+			<key>SendAllTelemetryEnabled</key>
+			<false/>					
+		</dict>
+	
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.Outlook</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.OutlookPrefs.E623092C-4D30-4B9F-B990-3BF0C0D3B4CA</string>
+			<key>PayloadUUID</key>
+			<string>6F2DDC54-C695-43E2-9992-058FB497E7DB</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>FirstRunExperienceCompletedO15</key>
+			<true/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+			<key>OUIWhatsNewLastShownLink</key>
+			<integer>624956</integer>
+			<key>SendAllTelemetryEnabled</key>
+			<false/>					
+		</dict>
+			
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.OfficeUpdatePrefs.26B05B21-AA3B-4825-8016-FE497AF8820D</string>
+			<key>PayloadUUID</key>
+			<string>4581E73A-9C81-4D22-9508-9526D21C381D</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>Applications</key>
+			<dict>
+				<key>/Applications/Microsoft Excel.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>XCEL15</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft OneNote.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>ONMC15</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Outlook.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>OPIM15</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft PowerPoint.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>PPT315</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Word.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSWD15</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSau02</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Library/Application Support/Microsoft/MERP2.0/Microsoft Error Reporting.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>Merp2</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+			</dict>
+			<key>HowToCheck</key>
+			<string>Manual</string>
+			<key>LastUpdate</key>
+			<date>2001-01-01T00:00:00Z</date>
+			<key>WhenToCheck</key>
+			<integer>2</integer>
+		</dict>				
+			
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.microsoft.Office365ServiceV2</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.OfficePrefs.7BBDCAC1-FC2C-4BD9-81C0-455B78C226C9</string>
+			<key>PayloadUUID</key>
+			<string>D2E9806B-2FE4-4570-B2EE-B0DC0404E188</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<!-- Managed Prefs -->
+			<key>SendAllTelemetryEnabled</key>
+			<false/>
+		</dict>	
+			
+	</array>
+</dict>
+</plist>

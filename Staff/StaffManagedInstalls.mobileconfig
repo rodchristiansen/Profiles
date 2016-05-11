@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.StaffManagedInstalls</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>ManagedInstalls</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadUUID</key>
+			<string>7059fe60-222f-0131-31db-000c2944c108</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>StaffManagedInstalls</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>ManagedInstalls</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SoftwareRepoURL</key>
+								<string>http://pluto.edu.ecuad.ca/MunkiRepo</string>
+								<key>InstallAppleSoftwareUpdates</key>
+								<string>false</string>
+								<key>SuppressAutoInstall</key>
+								<string>false</string>
+								<key>SuppressLoginwindowInstall</key>
+								<string>false</string>
+								<key>SuppressUserNotification</key>
+								<string>false</string>																																						
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

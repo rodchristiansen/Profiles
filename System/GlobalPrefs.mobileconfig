@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>GlobalPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.GlobalPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>54A1935F-5DDB-4FDD-A9FF-B7F33FE67D16</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string>Sets inches for prints, fast user switching, location preferences</string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.GlobalPrefs.DFF5A79B-8584-4064-A08E-F7FF8FB2F236</string>
+			<key>PayloadUUID</key>
+			<string>2DB7C422-4DF3-46AF-8D8D-18C945AE3E3C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+	                            <key>DSDontWriteNetworkStores</key>
+                                <true/>
+                                <key>NSDocumentSaveNewDocumentsToCloud</key>
+								<false/>
+								<key>AppleLanguages</key>
+								<array>
+									<string>en</string>
+								</array>
+								<key>AppleLocale</key>
+								<string>en_CA</string>
+								<key>AppleMeasurementUnits</key>
+								<string>Inches</string>
+								<key>AppleMetricUnits</key>
+								<false/>
+								<key>Country</key>
+								<string>CA</string>
+								<key>MultipleSessionEnabled</key>
+								<true/>
+								<key>NSNavPanelExpandedStateForSaveMode</key>
+								<true/>
+								<key>NSNavPanelExpandedStateForSaveMode2</key>
+								<true/>
+								<key>PMPrintingExpandedStateForPrint</key>
+								<true/>
+								<key>PMPrintingExpandedStateForPrint2</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.TimeMachine</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.GlobalPrefs.053E2803-FD9D-4C21-96EB-4B999639C3F8</string>
+			<key>PayloadUUID</key>
+			<string>A4DA0D26-C83D-4988-82A2-68D66F0FC1F9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>			
+
+			<key>DoNotOfferNewDisksForBackup</key>
+			<true/>
+
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.LaunchServices</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.GlobalPrefs.A4B629B7-B56C-4065-B043-1F6A13070D42</string>
+			<key>PayloadUUID</key>
+			<string>71AFB355-8D09-49CC-85EC-124B126AAAA5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>						
+			
+			<key>LSQuarantine</key>
+			<false/>
+
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.desktopservices</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.GlobalPrefs.1777D924-1B6C-41C8-B504-E6BEEC381E68</string>
+			<key>PayloadUUID</key>
+			<string>050AE37B-BB97-465C-A658-62B9452A5DDE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>	
+
+			<key>DSDontWriteNetworkStores</key>
+			<true/>								             
+
+		</dict>
+		<dict>	
+			<key>PayloadType</key>
+			<string>com.apple.ActivityMonitor</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.GlobalPrefs.375E3034-FF71-4030-A255-E9C80733B7B5</string>
+			<key>PayloadUUID</key>
+			<string>1C2AD52E-E057-4C12-859C-258055204178</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>	
+
+			<key>OpenMainWindow</key>
+			<true/>
+			<key>SortColumn</key>
+			<string>cpUUsage</string>     
+			<key>LoadRemoteManagementMenuExtra</key>
+			<false/>                                
+
+		</dict>
+		
+	</array>
+</dict>
+</plist>
