@@ -41,7 +41,7 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>SoftwareRepoURL</key>
-								<string>http://pluto.edu.ecuad.ca/MunkiRepo</string>
+								<string>http://pluto.edu.ecuad.ca/deployment</string>
 								<key>InstallAppleSoftwareUpdates</key>
 								<string>false</string>
 								<key>SuppressAutoInstall</key>
