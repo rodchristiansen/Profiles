@@ -3,41 +3,41 @@
 <plist version="1.0">
 <dict>
 
-<!-- Match the name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<!-- Match the name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<key>PayloadDisplayName</key>
 	<string>MunkiAdminPrefs</string>
 
-<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<key>PayloadIdentifier</key>
 	<string>ca.ecuad.mactech.MunkiAdminPrefs</string>
 
-<!-- Generate an UUID with uuidgen command in Terminal  -->
+	<!-- Generate an UUID with uuidgen command in Terminal  -->
 	<key>PayloadUUID</key>
 	<string>F1279D25-23A1-498F-AF22-AADD5F04247D</string>
 
-<!-- Choose if its System or User level profile -->
+	<!-- Choose if its System or User level profile -->
 	<key>PayloadScope</key>
 	<string>User</string>
 
-<!-- Optional -->
+	<!-- Optional -->
 	<key>PayloadDescription</key>
 	<string>Mounts Repo and sets up app prefs</string>
 	
-<!-- Always the same -->	
+	<!-- Always the same -->	
 	<key>PayloadOrganization</key>
 	<string>EmilyCarrUniversity</string>
 	
-<!-- Ask admin password to remove profile -->
+	<!-- Ask admin password to remove profile -->
 	<key>PayloadRemovalDisallowed</key>
 	<false/>	
 	
-<!-- Never Change -->	
+	<!-- Never Change -->	
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 
-<!-- Here is where you target your plist and managed settings -->
+	<!-- Here is where you target your plist and managed settings -->
 	<key>PayloadContent</key>
 	<array>
 		<dict>
