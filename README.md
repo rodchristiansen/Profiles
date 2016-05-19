@@ -11,10 +11,8 @@ Use /usr/bin/profiles
 -D removes all profiles  
 -I installs profiles  
 -R removes profiles  
-
-There is a nifty new feature in the profiles command in Yosemite where you can configure profiles to install at the next boot, rather than immediately. Use the -s to define a startup profile and take note that if it fails, the profile will attempt to install at each subsequent reboot until installed. To use the command, simply add a -s then the -F for the profile and the -f to automatically confirm, as follows (and I like to throw in a -v usually for good measure):
-
-/usr/bin/profiles -s -F /Profiles/SuperAwesome.mobileconfig -f -v
+-s install at the next boot
+-p to manage profiles from Profile Manager or pushed with Munki.
 
 
 ## Convert ProfileManager Profile to Proper XML
@@ -23,10 +21,15 @@ Clean up a Profile downloaded from ProfileManager from a single line to proper x
 	plutil -convert binary1 /path/to/Profile.mobileconfig 
 	plutil -convert xml1 /path/to/Profile.mobileconfig 
 
+# MasterProfileTemplate.mobileconfig
 
-## Profiles Locations and Resources
+In my struggles to understand and deploy profiles in the past few months led me to create a master template that is clear to understand and reproducible for many different system and application settings.
 
-Text file documenting management profiles created by MacTechs. Storage location for Profiles is the /Volumes/DeploymentRepository/Profiles in Pluto and mirrored in Proteus for redundancy.
+Containing commentary on each section this is a great way for first timers in the world of management profiles.
+
+The MasterProfileTemplate.mobileconfig can be deployed as is by simply replacing the indicated relevant areas to what your profile is to accomplish. Save it as a .mobileconfig and deploy it. Keep the comments in place if you’d like, it works perfectly fine with them included in my testing.
+
+This is a manual process than the very intelligently created [MCXtoProfile](https://github.com/timsutton/mcxToProfile), which is what you’ll likely need if targeting MCX settings for your .mobileconfig. This master template can be works well for .plists you have access to read and copy the keys on your environment.
 
 ## Resources
 https://github.com/timsutton/mcxToProfile  
