@@ -44,10 +44,10 @@
 			<string>DCB4145C-F123-4530-9985-01307D770578</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>override-picture-path</key>
 			<string>/Library/Desktop Pictures/Mountain Range.jpg</string>					

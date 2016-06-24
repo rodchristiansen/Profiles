@@ -44,10 +44,10 @@
 			<string>59FD7D26-7FE8-405C-BD21-755FAC88A087</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>restrict-store-disable-app-adoption</key>
 			<true/>

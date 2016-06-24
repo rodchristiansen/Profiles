@@ -45,10 +45,10 @@
 			<string>FC59AC6C-5DD9-4F6E-A7B3-FEBB06394A58</string>
 
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>AlwaysShowFavoritesBarInFullScreen</key>
 			<false/>

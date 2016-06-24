@@ -44,10 +44,10 @@
 			<string>5E100BEA-3A52-4495-BB3B-1C55EDE46BFB</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>idleTime</key>
 			<integer>1200</integer>

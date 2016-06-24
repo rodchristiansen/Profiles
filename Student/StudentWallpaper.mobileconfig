@@ -44,10 +44,10 @@
 			<string>9989B1C5-B66B-403C-B8A1-ED11E6788546</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>override-picture-path</key>
 			<string>/Library/Desktop Pictures/Solid Colors/Solid Gray Medium.png</string>

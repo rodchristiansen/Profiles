@@ -44,10 +44,10 @@
 			<string>0D6DB921-F178-4F2C-9291-E1B0BF1FD847</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>NSWindow Frame MAMP</key>
 			<string>91 590 536 405 0 0 1920 1057 </string>

@@ -44,10 +44,10 @@
 			<string>463F3464-04D3-40BA-B27A-73AB3CA70537</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>ViewModelMigrated</key>
 			<integer>1</integer>

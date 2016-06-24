@@ -4,67 +4,54 @@
 <dict>
 
 	<key>PayloadDisplayName</key>
-	<!-- Match the name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<string>FetchPrefs</string>
 
 	<key>PayloadIdentifier</key>
 	<string>ca.ecuad.mactech.FetchPrefs</string>
 
 	<key>PayloadUUID</key>
-	<!-- Generate an UUID with uuidgen command in Terminal  -->
 	<string>1ADB962B-C674-495E-B6CE-F69E55767FB4</string>
 
 	<key>PayloadScope</key>
 	<string>System</string>
 
 	<key>PayloadDescription</key>
-	<!-- Optional -->
 	<string>Configures Fetch preferences and shortcuts</string>
 	
 	<key>PayloadOrganization</key>
-	<!-- Always the same -->	
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
 	<true/>	
 	
 	<key>PayloadVersion</key>
-	<!-- Never Change -->	
 	<integer>1</integer>
 
 	<key>PayloadType</key>
-	<!-- Never Change -->	
 	<string>Configuration</string>
 
 	<key>PayloadContent</key>
-	<!-- Here is where you target your plist and managed settings -->
 	<array>
 		<dict>
 		
 			<key>PayloadType</key>
-			<!-- Target plist with Settings -->
 			<string>com.fetchsoftworks.Fetch</string>
 
 			<key>PayloadIdentifier</key>
-			<!-- This identifier matches the targeted plist name or just repeat profile name, some add another .UUID at the end -->
 			<string>ca.ecuad.mactech.FetchPrefs.9A01CDE0-30E4-42DD-A7D8-DB77E0168015</string>
 			
 			<key>PayloadDisplayName</key>
-			<!-- Match with the plist name, CamelCase it-->
 			<string>FetchPrefs</string>
 
 			<key>PayloadUUID</key>
 			<string>20849570-3448-4CC2-A37C-2ED20B651E81</string>
 
 			<key>PayloadVersion</key>
-			<!-- Never Change -->	
 			<integer>1</integer>
 
 			<key>PayloadEnabled</key>
-			<!-- Never Change -->	
 			<true/>
 
-			<!-- Managed Settings, as many as you need, can be nested-->
 			<key>AutoCheckForUpdates</key>
 			<false/>
 			<key>DefaultShortcut</key>
@@ -95,9 +82,7 @@
 	
 
 		<dict>			
-				
-		<!-- You can target multiple plists inside another dict block like this: -->
-	
+					
 		<key>PayloadType</key>
 		<string>com.fetchsoftworks.Fetch.Shortcuts</string>
 		<key>PayloadIdentifier</key>
@@ -111,7 +96,6 @@
 		<key>PayloadEnabled</key>
 		<true/>			
 			
-		<!-- Managed Settings, as many as you need, can be nested-->		
 		<key>Shortcuts v2</key>
 		<dict>
 	<key>Preferences</key>

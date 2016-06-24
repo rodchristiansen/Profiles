@@ -44,10 +44,10 @@
 			<string>6BF96264-D64A-4032-9CF4-FEC0CBDBE99F</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>LSHandlers</key>
 			<array>							

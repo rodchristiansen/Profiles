@@ -44,10 +44,10 @@
 			<string>640BFDE9-6BB0-47AD-81F1-D74770C41429</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>GHHasLaunchedDesktop</key>
 			<integer>1</integer>							

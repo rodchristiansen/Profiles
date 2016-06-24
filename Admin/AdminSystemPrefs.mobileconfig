@@ -44,10 +44,10 @@
 			<string>41C414C8-380C-464C-B968-B037F5175F56</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>HiddenPreferencePanes</key>
 			<array>

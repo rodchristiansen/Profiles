@@ -44,10 +44,10 @@
 			<string>88E066EE-7B8D-468D-AEB2-B1651B81B7EC</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>RichText</key>
 			<integer>0</integer>					

@@ -44,10 +44,10 @@
 			<string>252C58D8-8715-4E9A-A8BB-200E16A0E8F3</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>IDELastGMLicenseAgreedTo</key>
 			<string>EA1327</string>

@@ -41,7 +41,7 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>SoftwareRepoURL</key>
-								<string>http://pluto.edu.ecuad.ca/deployment</string>
+								<string>http://myrepo/</string>
 								<key>InstallAppleSoftwareUpdates</key>
 								<false/>
 								<key>SuppressAutoInstall</key>

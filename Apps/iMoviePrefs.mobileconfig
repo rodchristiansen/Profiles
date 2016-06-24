@@ -44,10 +44,10 @@
 			<string>CAC48656-1EE9-4F54-966F-825C514C3C60</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>showWelcomeScreenAtStartup</key>
 			<string>0</string>

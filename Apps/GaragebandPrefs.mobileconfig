@@ -44,10 +44,10 @@
 			<string>7E2C29E7-DC0A-4369-95A3-AA5C33FDC8C5</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>welcomeScreenShown</key>
 			<true/>	

@@ -44,10 +44,10 @@
 			<string>5663CAF4-E820-413F-BBEA-B24CC9C5883A</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>license-agreements</key>
 			<dict>
@@ -68,10 +68,10 @@
 			<string>4EAD85B2-19E8-476B-A5AE-7299B04EC293</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>license-agreements</key>
 			<dict>

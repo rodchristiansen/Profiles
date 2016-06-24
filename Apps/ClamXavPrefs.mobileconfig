@@ -44,10 +44,10 @@
 			<string>7B9559B7-84AE-4B47-A8C4-20488D91C7C</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>UpdateDefsOnLaunch</key>
 			<true/>

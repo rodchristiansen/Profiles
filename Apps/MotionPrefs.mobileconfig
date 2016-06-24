@@ -44,10 +44,10 @@
 			<string>3AEC54BE-559A-4ADB-88ED-9ADCDBD5CDD1</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>LKLastWhatsNewVersionDisplayed</key>
 			<integer>1</integer>							

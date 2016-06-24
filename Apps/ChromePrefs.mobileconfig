@@ -44,10 +44,10 @@
 			<string>9FC2BCF9-83C0-4050-B34D-F93EAF252656</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>DisablePrintPreview</key>
 			<true/>

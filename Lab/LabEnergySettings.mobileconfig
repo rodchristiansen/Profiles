@@ -44,10 +44,10 @@
 			<string>C8DE7FC4-75F2-4247-B195-FD810EB2DD3F</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>PayloadContent</key>
 			<dict>

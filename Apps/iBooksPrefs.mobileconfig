@@ -44,10 +44,10 @@
 			<string>23F71F28-DB40-4D84-9698-3BA3535AA266</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>BKAlreadyDisplayedUbiquity</key>
 			<true/>

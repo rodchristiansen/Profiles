@@ -44,10 +44,10 @@
 			<string>FB2DA8A4-F885-4D58-ABCF-8C9318CC8436</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>WebKitJavaEnabled</key>
 			<false/>							

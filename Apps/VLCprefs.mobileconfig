@@ -44,10 +44,10 @@
 			<string>D7B86360-2E7D-41D5-AE8A-36A8046EFCE8</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>SUEnableAutomaticChecks</key>
 			<false/>

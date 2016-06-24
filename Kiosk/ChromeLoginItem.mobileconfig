@@ -44,10 +44,10 @@
 			<string>4F3B6E61-4C17-46A1-8C73-71E751046B23</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>AutoLaunchedApplicationDictionary</key>
 			  <array>

@@ -44,10 +44,10 @@
 			<string>AD84C49C-C8FE-41C7-9CDA-FD3F888005F9</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>FFCheckedUpgrade</key>
 			<true/>					

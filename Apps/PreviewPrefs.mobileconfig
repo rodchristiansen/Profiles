@@ -44,10 +44,10 @@
 			<string>CC45FD49-BE85-422C-BB17-F4C8088ACD36</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>NSToolbar Configuration CommonToolbar_v5.1</key>
 			<dict>

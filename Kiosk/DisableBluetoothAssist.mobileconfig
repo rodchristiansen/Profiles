@@ -44,10 +44,10 @@
 			<string>B35D9A3E-4E3F-4D5C-9333-22855B1A668E</string>
 	
 			<key>PayloadVersion</key>
-					<integer>1</integer>
+			<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-					<true/>
+			<true/>
 
 			<key>BluetoothAutoSeekKeyboard</key>
 			<false/>
