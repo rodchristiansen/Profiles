@@ -56,9 +56,9 @@
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
-			<string>imap.ecuad.ca</string>
+			<string>SERVER_NAME</string>
 			<key>IncomingMailServerPortNumber</key>
-			<integer>143</integer>
+			<integer>PORT_NUMBER</integer>
 			<key>IncomingMailServerUseSSL</key>
 			<true/>
 			<key>IncomingMailServerUsername</key>
@@ -68,9 +68,9 @@
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
-			<string>smtp.ecuad.ca</string>
+			<string>SERVER_NAME</string>
 			<key>OutgoingMailServerPortNumber</key>
-			<integer>587</integer>
+			<integer>PORT_NUMBER</integer>
 			<key>OutgoingMailServerUseSSL</key>
 			<true/>
 			<key>OutgoingMailServerUsername</key>
