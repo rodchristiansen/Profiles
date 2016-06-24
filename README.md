@@ -1,4 +1,4 @@
-A repository of Mac OS .mobileconfig Profiles for a myriad of system and user preferences
+A repository of macOS .mobileconfig Profiles for a myriad of system and user preferences
 
 # THE BIG PROFILES PROJECT
 (i.e. WorkGroupMgr we don't like you, be gone)
