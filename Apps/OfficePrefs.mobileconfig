@@ -4,43 +4,33 @@
 <dict>
 
 	<key>PayloadDisplayName</key>
-	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
 	<string>OfficePrefs</string>
 
 	<key>PayloadIdentifier</key>
-	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<string>ca.ecuad.mactech.OfficePrefs</string>
 	
 	<key>PayloadUUID</key>
-	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
 	<string>8F837D58-2537-48A3-A02D-12955832BD17</string>
 	
 	<key>PayloadScope</key>
-	<!-- Choose if its System or User level profile -->
 	<string>System</string>
 	
 	<key>PayloadDescription</key>
-	<!-- Short description of what the profile manages -->
 	<string></string>
 	
 	<key>PayloadOrganization</key>
-	<!-- Always the same for your organization -->	
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
-	<!-- Ask admin password to remove profile -->
 	<true/>	
 	
 	<key>PayloadVersion</key>
-	<!-- Do Not Change -->
 	<integer>1</integer>
 	
 	<key>PayloadType</key>
-	<!-- Do Not Change -->
 	<string>Configuration</string>
 
 	<key>PayloadContent</key>
-	<!-- Here is where you target your plists and managed settings -->
 	<array>
 
 		<dict>		

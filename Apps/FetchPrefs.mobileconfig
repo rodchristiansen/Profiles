@@ -8,7 +8,6 @@
 	<string>FetchPrefs</string>
 
 	<key>PayloadIdentifier</key>
-	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<string>ca.ecuad.mactech.FetchPrefs</string>
 
 	<key>PayloadUUID</key>
@@ -16,7 +15,6 @@
 	<string>1ADB962B-C674-495E-B6CE-F69E55767FB4</string>
 
 	<key>PayloadScope</key>
-	<!-- Choose if its System or User level profile -->
 	<string>System</string>
 
 	<key>PayloadDescription</key>
@@ -28,7 +26,6 @@
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
-	<!-- Ask admin password to remove profile -->
 	<true/>	
 	
 	<key>PayloadVersion</key>
@@ -57,7 +54,6 @@
 			<string>FetchPrefs</string>
 
 			<key>PayloadUUID</key>
-			<!-- Generate an UUID with uuidgen command in Terminal  -->
 			<string>20849570-3448-4CC2-A37C-2ED20B651E81</string>
 
 			<key>PayloadVersion</key>

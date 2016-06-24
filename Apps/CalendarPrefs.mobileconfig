@@ -4,67 +4,51 @@
 <dict>
 
 	<key>PayloadDisplayName</key>
-	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
 	<string>CalendarPrefs</string>
 
 	<key>PayloadIdentifier</key>
-	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<string>ca.ecuad.mactech.CalendarPrefs</string>
 	
 	<key>PayloadUUID</key>
-	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
 	<string>A7BBF1FD-D802-4F4D-90EB-11DF0F16292B</string>
 	
 	<key>PayloadScope</key>
-	<!-- Choose if its System or User level profile -->
 	<string>System</string>
 	
 	<key>PayloadDescription</key>
-	<!-- Short description of what the profile manages -->
 	<string></string>
 	
 	<key>PayloadOrganization</key>
-	<!-- Always the same for your organization -->	
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
-	<!-- Ask admin password to remove profile -->
 	<true/>	
 	
 	<key>PayloadVersion</key>
-	<!-- Do Not Change -->
 	<integer>1</integer>
 	
 	<key>PayloadType</key>
-	<!-- Do Not Change -->
 	<string>Configuration</string>
 
 	<key>PayloadContent</key>
-	<!-- Here is where you target your plists and managed settings -->
 	<array>
 
 		<dict>		
 			<key>PayloadType</key>
-			<!-- Targeted plist for managed settings, no need for .plist extension -->
 			<string>com.apple.iCal</string>
 
 			<key>PayloadIdentifier</key>
-			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
 			<string>ca.ecuad.mactech.CalendarPrefs.45664417-F8D9-4919-92B1-370C3D80E76E</string>
 
 			<key>PayloadUUID</key>
-			<!-- Generate an UUID with uuidgen command in Terminal  -->
 			<string>463F3464-04D3-40BA-B27A-73AB3CA70537</string>
 	
 			<key>PayloadVersion</key>
-			<!-- Do Not Change -->
-			<integer>1</integer>
+					<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-			<!-- Do Not Change -->
-			<true/>
+					<true/>
 
-			<!-- Managed Settings sections, as many as you need for that targeted plist -->
 			<key>ViewModelMigrated</key>
 			<integer>1</integer>
 			<key>privacyPaneHasBeenAcknowledged</key>

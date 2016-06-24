@@ -4,67 +4,51 @@
 <dict>
 
 	<key>PayloadDisplayName</key>
-	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
 	<string>iTunesPrefs</string>
 
 	<key>PayloadIdentifier</key>
-	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<string>ca.ecuad.mactech.iTunesPrefs</string>
 	
 	<key>PayloadUUID</key>
-	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
 	<string>FF6E6E71-8390-4EB6-8C6C-3D8DC8532AD0</string>
 	
 	<key>PayloadScope</key>
-	<!-- Choose if its System or User level profile -->
 	<string>System</string>
 	
 	<key>PayloadDescription</key>
-	<!-- Short description of what the profile manages -->
 	<string></string>
 	
 	<key>PayloadOrganization</key>
-	<!-- Always the same for your organization -->	
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
-	<!-- Ask admin password to remove profile -->
 	<true/>	
 	
 	<key>PayloadVersion</key>
-	<!-- Do Not Change -->
 	<integer>1</integer>
 	
 	<key>PayloadType</key>
-	<!-- Do Not Change -->
 	<string>Configuration</string>
 
 	<key>PayloadContent</key>
-	<!-- Here is where you target your plists and managed settings -->
 	<array>
 
 		<dict>		
 			<key>PayloadType</key>
-			<!-- Targeted plist for managed settings, no need for .plist extension -->
 			<string>com.apple.iTunes.ByHost</string>
 
 			<key>PayloadIdentifier</key>
-			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
 			<string>ca.ecuad.mactech.iTunesPrefs.6CD66B21-F42D-4D14-9E58-6EBA208C4D30</string>
 
 			<key>PayloadUUID</key>
-			<!-- Generate an UUID with uuidgen command in Terminal  -->
 			<string>5663CAF4-E820-413F-BBEA-B24CC9C5883A</string>
 	
 			<key>PayloadVersion</key>
-			<!-- Do Not Change -->
-			<integer>1</integer>
+					<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-			<!-- Do Not Change -->
-			<true/>
+					<true/>
 
-			<!-- Managed Settings sections, as many as you need for that targeted plist -->
 			<key>license-agreements</key>
 			<dict>
 				<key>EA1067</key>
@@ -75,26 +59,20 @@
 		
 		<dict>		
 			<key>PayloadType</key>
-			<!-- Targeted plist for managed settings, no need for .plist extension -->
 			<string>com.apple.iTunes</string>
 
 			<key>PayloadIdentifier</key>
-			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
 			<string>ca.ecuad.mactech.iTunesPrefs.EA4C231A-F646-4312-A527-C9432B5F0047</string>
 
 			<key>PayloadUUID</key>
-			<!-- Generate an UUID with uuidgen command in Terminal  -->
 			<string>4EAD85B2-19E8-476B-A5AE-7299B04EC293</string>
 	
 			<key>PayloadVersion</key>
-			<!-- Do Not Change -->
-			<integer>1</integer>
+					<integer>1</integer>
 		
 			<key>PayloadEnabled</key>
-			<!-- Do Not Change -->
-			<true/>
+					<true/>
 
-			<!-- Managed Settings sections, as many as you need for that targeted plist -->
 			<key>license-agreements</key>
 			<dict>
 				<key>EA1067</key>

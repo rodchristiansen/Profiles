@@ -7,7 +7,6 @@
 	<key>PayloadDisplayName</key>
 	<string>MunkiAdminPrefs</string>
 
-	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
 	<key>PayloadIdentifier</key>
 	<string>ca.ecuad.mactech.MunkiAdminPrefs</string>
 
@@ -15,7 +14,6 @@
 	<key>PayloadUUID</key>
 	<string>F1279D25-23A1-498F-AF22-AADD5F04247D</string>
 
-	<!-- Choose if its System or User level profile -->
 	<key>PayloadScope</key>
 	<string>User</string>
 
@@ -27,7 +25,6 @@
 	<key>PayloadOrganization</key>
 	<string>EmilyCarrUniversity</string>
 	
-	<!-- Ask admin password to remove profile -->
 	<key>PayloadRemovalDisallowed</key>
 	<false/>	
 	
