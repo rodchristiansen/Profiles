@@ -5,15 +5,15 @@
 
 	<key>PayloadDisplayName</key>
 	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
-	<string>StaffEnergySettings</string>
+	<string>CalendarPrefs</string>
 
 	<key>PayloadIdentifier</key>
 	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
-	<string>ca.ecuad.mactech.StaffEnergySettings</string>
+	<string>ca.ecuad.mactech.CalendarPrefs</string>
 	
 	<key>PayloadUUID</key>
 	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
-	<string>4E6A0B9E-D3A3-444C-88A9-023F57A86A63</string>
+	<string>A7BBF1FD-D802-4F4D-90EB-11DF0F16292B</string>
 	
 	<key>PayloadScope</key>
 	<!-- Choose if its System or User level profile -->
@@ -46,15 +46,15 @@
 		<dict>		
 			<key>PayloadType</key>
 			<!-- Targeted plist for managed settings, no need for .plist extension -->
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.iCal</string>
 
 			<key>PayloadIdentifier</key>
 			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
-			<string>ca.ecuad.mactech.StaffEnergySettings.71F7A654-46FC-46CA-842C-709BBE48273D</string>
+			<string>ca.ecuad.mactech.CalendarPrefs.45664417-F8D9-4919-92B1-370C3D80E76E</string>
 
 			<key>PayloadUUID</key>
 			<!-- Generate an UUID with uuidgen command in Terminal  -->
-			<string>2CC07C84-C983-4AA9-96A9-BCD3395D43AF</string>
+			<string>463F3464-04D3-40BA-B27A-73AB3CA70537</string>
 	
 			<key>PayloadVersion</key>
 			<!-- Do Not Change -->
@@ -65,42 +65,12 @@
 			<true/>
 
 			<!-- Managed Settings sections, as many as you need for that targeted plist -->
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.apple.MCX</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>com.apple.EnergySaver.desktop.Schedule</key>
-								<dict>
-									<key>RepeatingPowerOff</key>
-									<dict>
-										<key>eventtype</key>
-										<string>restart</string>
-										<key>time</key>
-										<integer>240</integer>
-										<key>weekdays</key>
-										<integer>1</integer>
-									</dict>
-									<key>RepeatingPowerOn</key>
-									<dict>
-										<key>eventtype</key>
-										<string>wakepoweron</string>
-										<key>time</key>
-										<integer>1080</integer>
-										<key>weekdays</key>
-										<integer>127</integer>
-									</dict>				
-								</dict>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-		</dict>	
+			<key>ViewModelMigrated</key>
+			<integer>1</integer>
+			<key>privacyPaneHasBeenAcknowledged</key>
+			<true/>		
+		</dict>
+	
 	</array>
 </dict>
 </plist>

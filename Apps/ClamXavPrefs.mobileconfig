@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
+	<string>ClamXavPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
+	<string>ca.ecuad.mactech.ClamXavPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
+	<string>1E0C2950-CE47-4C44-8EBB-71D2A0E21DF1</string>
+	
+	<key>PayloadScope</key>
+	<!-- Choose if its System or User level profile -->
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<!-- Short description of what the profile manages -->
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<!-- Always the same for your organization -->	
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<!-- Ask admin password to remove profile -->
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<!-- Do Not Change -->
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<!-- Do Not Change -->
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<!-- Here is where you target your plists and managed settings -->
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<!-- Targeted plist for managed settings, no need for .plist extension -->
+			<string>uk.co.markallan.clamxav</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
+			<string>ca.ecuad.mactech.ClamXavPrefs.2E37B226-CC8B-49CA-8314-4C809A18AE74</string>
+
+			<key>PayloadUUID</key>
+			<!-- Generate an UUID with uuidgen command in Terminal  -->
+			<string>7B9559B7-84AE-4B47-A8C4-20488D91C7C</string>
+	
+			<key>PayloadVersion</key>
+			<!-- Do Not Change -->
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<!-- Do Not Change -->
+			<true/>
+
+			<!-- Managed Settings sections, as many as you need for that targeted plist -->
+			<key>UpdateDefsOnLaunch</key>
+			<true/>
+			<key>Donate Rotate</key>
+			<integer>2</integer>
+			<key>NeedsExit1FreshclamFlag</key>
+			<true/>
+			<key>PathToClamav</key>
+			<string>/usr/local/clamXav</string>
+			<key>PathToUpdateLog</key>
+			<string>/usr/local/clamXav/share/clamav/freshclam.log</string>
+			<key>QuarantineFolder</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/Shared/VirusQuarantine</string>
+			</dict>
+			<key>QuarantineInfected</key>
+			<true/>
+			<key>SUEnableAutomaticChecks</key>
+			<false/>
+			<key>SUSendProfileInfo</key>
+			<true/>
+			<key>ScanEmail</key>
+			<false/>
+			<key>sourceContents</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>~</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>~/Documents</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>~/Library</string>
+				</dict>
+			</array>				
+		</dict>
+	</array>
+</dict>
+</plist>

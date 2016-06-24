@@ -14,8 +14,12 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>autoLoginUser</key>
-								<string>student</string>				
+								<key>AdminHostInfo</key>
+								<string>HostName</string>
+								<key>TALLogoutSavesState</key>
+								<false/>
+								<key>LoginHook</key>
+								<string>/Users/admin/Documents/OtherUtilities/RsyncX/LoginHook/hook.command</string>
 							</dict>
 						</dict>
 					</array>
@@ -24,11 +28,11 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.mactech.StaffLoginWindow.EF1D7A92-92A4-418B-BC43-94E904ABFA1F</string>
+			<string>ca.ecuad.mactech.LabLoginWindow.Fa5D2B44-8F46-4F6D-947D-3D1C3955B7B6</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>5C17F3A2-E9AD-431B-A7FC-B560A34FA705</string>
+			<string>fa5d2b44-8f46-4f6d-947d-3d1c3955b7b6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -36,9 +40,9 @@
 	<key>PayloadDescription</key>
 	<string></string>
 	<key>PayloadDisplayName</key>
-	<string>StudentAutoLogin</string>
+	<string>LabLoginWindow</string>
 	<key>PayloadIdentifier</key>
-	<string>ca.ecuad.mactech.StudentAutoLogin</string>
+	<string>ca.ecuad.mactech.LabLoginWindow</string>
 	<key>PayloadOrganization</key>
 	<string></string>
 	<key>PayloadRemovalDisallowed</key>
@@ -48,7 +52,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>317877D9-A919-450C-87EE-76A2C6CF4C0D</string>
+	<string>bd86b41b-76ed-4db5-b130-6015d9f37396</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

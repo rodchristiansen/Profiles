@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>PrinterDefault156</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.PrinterDefault156</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>853D6AA8-794C-4AE3-8863-E304BE2F736C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>PrinterDefault203</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrinterDefault156.EBCA9103-4348-4704-A3BB-E6B79E90C4E0</string>
+			<key>PayloadType</key>
+			<string>com.apple.mcxprinting</string>
+			<key>PayloadUUID</key>
+			<string>EF0BA8EC-10EE-4E40-B1FC-D7479C5D6E56</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DefaultPrinter</key>
+			<dict>
+				<key>DeviceURI</key>
+				<string>lpd://print.edu.ecuad.ca/156BWLetter</string>
+				<key>DisplayName</key>
+				<string>156 BW Letter</string>
+			</dict>
+		</dict>
+	</array>
+
+</dict>
+</plist>

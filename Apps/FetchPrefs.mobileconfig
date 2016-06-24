@@ -5,11 +5,11 @@
 
 	<key>PayloadDisplayName</key>
 	<!-- Match the name to the .mobileconfig name, keep it simple, CamelCase it -->
-	<string>StudentFetchPrefs</string>
+	<string>FetchPrefs</string>
 
 	<key>PayloadIdentifier</key>
 	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
-	<string>ca.ecuad.mactech.StudentFetchPrefs</string>
+	<string>ca.ecuad.mactech.FetchPrefs</string>
 
 	<key>PayloadUUID</key>
 	<!-- Generate an UUID with uuidgen command in Terminal  -->
@@ -17,7 +17,7 @@
 
 	<key>PayloadScope</key>
 	<!-- Choose if its System or User level profile -->
-	<string>User</string>
+	<string>System</string>
 
 	<key>PayloadDescription</key>
 	<!-- Optional -->
@@ -50,7 +50,7 @@
 
 			<key>PayloadIdentifier</key>
 			<!-- This identifier matches the targeted plist name or just repeat profile name, some add another .UUID at the end -->
-			<string>ca.ecuad.mactech.StudentFetchPrefs.9A01CDE0-30E4-42DD-A7D8-DB77E0168015</string>
+			<string>ca.ecuad.mactech.FetchPrefs.9A01CDE0-30E4-42DD-A7D8-DB77E0168015</string>
 			
 			<key>PayloadDisplayName</key>
 			<!-- Match with the plist name, CamelCase it-->
@@ -84,7 +84,7 @@
 			<key>ResumeDownloadRecords</key>
 			<dict/>
 			<key>SerialNumber</key>
-			<string>FETCHED001-94M2-N8G3-0TL4-AJNF-58HH</string>
+			<string>YOUR_SERIAL_NUMBER_HERE</string>
 			<key>com.pkware.zip-archive</key>
 			<dict>
 				<key>AutoDecode</key>

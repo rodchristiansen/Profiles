@@ -79,7 +79,7 @@
 								<key>com.apple.EnergySaver.desktop.ACPower</key>
 								<dict>
 									<key>Automatic Restart On Power Loss</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>Disk Sleep Timer-boolean</key>
 									<false/>
 									<key>Display Sleep Timer</key>

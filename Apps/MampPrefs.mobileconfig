@@ -5,15 +5,15 @@
 
 	<key>PayloadDisplayName</key>
 	<!-- Name displayed on the sidebar. Match the name to the .mobileconfig name, keep it simple and short, and CamelCase it. -->
-	<string>FacultyManifest</string>
+	<string>MampPrefs</string>
 
 	<key>PayloadIdentifier</key>
 	<!-- Match the ending name to the .mobileconfig name, keep it simple, CamelCase it -->
-	<string>FacultyManifest</string>
+	<string>ca.ecuad.mactech.MampPrefs</string>
 	
 	<key>PayloadUUID</key>
 	<!-- Generate unique UUIDs with uuidgen command in Terminal  -->
-	<string>09C43480-8378-456C-8BC1-A696D521B759</string>
+	<string>3ACF3531-D676-4CD5-8B2C-400AF6176FD2</string>
 	
 	<key>PayloadScope</key>
 	<!-- Choose if its System or User level profile -->
@@ -46,15 +46,15 @@
 		<dict>		
 			<key>PayloadType</key>
 			<!-- Targeted plist for managed settings, no need for .plist extension -->
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>de.appsolute.MAMP</string>
 
 			<key>PayloadIdentifier</key>
 			<!-- This identifier matches the targeted plist name or just repeat profile name, good practive to generate and add a .UUID at the end -->
-			<string>ca.ecuad.mactech.FacultyManifest.FD9892A8-D60C-4CE7-97F5-CAC230C9881E</string>
+			<string>ca.ecuad.mactech.MampPrefs.0C0C2CFA-CE15-4DA9-8E84-5694AEE91753</string>
 
 			<key>PayloadUUID</key>
 			<!-- Generate an UUID with uuidgen command in Terminal  -->
-			<string>A144B35D-5C0E-42A0-A8F2-BB998DA4DB06</string>
+			<string>0D6DB921-F178-4F2C-9291-E1B0BF1FD847</string>
 	
 			<key>PayloadVersion</key>
 			<!-- Do Not Change -->
@@ -65,28 +65,18 @@
 			<true/>
 
 			<!-- Managed Settings sections, as many as you need for that targeted plist -->
-			<key>PayloadContent</key>
-			<dict>
-				<key>ManagedInstalls</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>ClientIdentifier</key>
-								<string>faculty</string>
-								<key>InstallAppleSoftwareUpdates</key>
-								<false/>
-								<key>SuppressAutoInstall</key>
-								<false/>
-								<key>SuppressLoginwindowInstall</key>
-								<false/>																																			
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>				
+			<key>NSWindow Frame MAMP</key>
+			<string>91 590 536 405 0 0 1920 1057 </string>
+			<key>checkForMampPro</key>
+			<false/>
+			<key>openPage</key>
+			<true/>
+			<key>startPage</key>
+			<string>/MAMP/</string>
+			<key>startServers</key>
+			<true/>
+			<key>stopServers</key>
+			<true/>							
 		</dict>
 	</array>
 </dict>

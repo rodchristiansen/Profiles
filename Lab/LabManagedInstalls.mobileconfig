@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>ca.ecuad.mactech.StaffManagedInstalls</string>
+	<string>ca.ecuad.mactech.LabManagedInstalls</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<string>4B075FC8-C945-4751-B40C-45CF6336B886</string>
 	<key>PayloadOrganization</key>
 	<string>EmilyCarrUniversity</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>ManagedInstalls</string>
+	<string>LabManagedInstalls</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,11 +26,11 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadUUID</key>
-			<string>7059fe60-222f-0131-31db-000c2944c108</string>
+			<string>9A1E1743-3E78-4880-9230-C83115D0DF28</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>StaffManagedInstalls</string>
+			<string>LabManagedInstalls</string>
 			<key>PayloadContent</key>
 			<dict>
 				<key>ManagedInstalls</key>
@@ -41,15 +41,15 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>SoftwareRepoURL</key>
-								<string>http://myrepo/</string>
+								<string>http://pluto.edu.ecuad.ca/deployment</string>
 								<key>InstallAppleSoftwareUpdates</key>
-								<string>false</string>
+								<false/>
 								<key>SuppressAutoInstall</key>
-								<string>false</string>
+								<true/>
 								<key>SuppressLoginwindowInstall</key>
-								<string>false</string>
+								<true/>
 								<key>SuppressUserNotification</key>
-								<string>false</string>																																						
+								<true/>																																						
 							</dict>
 						</dict>
 					</array>
