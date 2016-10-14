@@ -44,7 +44,7 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>DefaultsToLocalOpenSave</key>
 			<true/>
 			<key>kSubUIAppCompletedFirstRunSetup1507</key>
@@ -52,7 +52,8 @@
 			<key>OUIWhatsNewLastShownLink</key>
 			<string>624954</string>
 			<key>SendAllTelemetryEnabled</key>
-			<false/>				
+			<false/>	
+						
 		</dict>
 		
 		<dict>		
@@ -66,7 +67,7 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>DefaultsToLocalOpenSave</key>
 			<true/>
 			<key>kSubUIAppCompletedFirstRunSetup1507</key>
@@ -74,7 +75,8 @@
 			<key>OUIWhatsNewLastShownLink</key>
 			<integer>624953</integer>
 			<key>SendAllTelemetryEnabled</key>
-			<false/>					
+			<false/>	
+							
 		</dict>
 
 		<dict>		
@@ -88,7 +90,7 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>DefaultsToLocalOpenSave</key>
 			<true/>
 			<key>kSubUIAppCompletedFirstRunSetup1507</key>
@@ -96,7 +98,8 @@
 			<key>OUIWhatsNewLastShownLink</key>
 			<integer>624953</integer>
 			<key>SendAllTelemetryEnabled</key>
-			<false/>					
+			<false/>
+								
 		</dict>
 	
 		<dict>		
@@ -110,7 +113,7 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>FirstRunExperienceCompletedO15</key>
 			<true/>
 			<key>kSubUIAppCompletedFirstRunSetup1507</key>
@@ -118,7 +121,8 @@
 			<key>OUIWhatsNewLastShownLink</key>
 			<integer>624956</integer>
 			<key>SendAllTelemetryEnabled</key>
-			<false/>					
+			<false/>	
+							
 		</dict>
 			
 		<dict>		
@@ -132,7 +136,7 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>Applications</key>
 			<dict>
 				<key>/Applications/Microsoft Excel.app</key>
@@ -185,12 +189,16 @@
 					<integer>1033</integer>
 				</dict>
 			</dict>
+			
 			<key>HowToCheck</key>
 			<string>Manual</string>
+			
 			<key>LastUpdate</key>
 			<date>2001-01-01T00:00:00Z</date>
+			
 			<key>WhenToCheck</key>
 			<integer>2</integer>
+			
 		</dict>				
 			
 		<dict>		
@@ -204,9 +212,10 @@
 			<integer>1</integer>
 			<key>PayloadEnabled</key>
 			<true/>
-			<!-- Managed Prefs -->
+
 			<key>SendAllTelemetryEnabled</key>
 			<false/>
+			
 		</dict>	
 			
 	</array>
