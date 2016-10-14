@@ -9,12 +9,14 @@
 			<dict>
 				<key>com.apple.SetupAssistant</key>
 				<dict>
-					<key>Set-Once</key>
+					<key>Forced</key>
 					<array>
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>DidSeeCloudSetup</key>
+								<true/>
+								<key>DidSeeSiriSetup</key>
 								<true/>
 								<key>DidSeeSyncSetup</key>
 								<false/>
@@ -24,18 +26,12 @@
 								<true/>
 								<key>GestureMovieSeen</key>
 								<string>none</string>
-								<key>LastCacheCleanupProductVersion</key>
-								<string>10.11.4</string>
-								<key>LastCacheCleanupStillRunning</key>
-								<false/>
-								<key>LastPreLoginTasksPerformedBuild</key>
-								<string>15E65</string>
-								<key>LastPreLoginTasksPerformedVersion</key>
-								<string>10.11.4</string>
 								<key>LastSeenBuddyBuildVersion</key>
-								<string>15E65</string>
+								<string>16A323</string>
 								<key>LastSeenCloudProductVersion</key>
-								<string>10.11.4</string>
+								<string>10.12</string>
+								<key>LastSeenSyncProductVersion</key>
+								<string>10.12</string>
 								<key>RunNonInteractive</key>
 								<false/>
 								<key>ShowKeychainSyncBuddyAtLogin</key>
