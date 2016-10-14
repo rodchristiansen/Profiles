@@ -61,6 +61,8 @@
 			<integer>1</integer>
 			<key>FirstRunComplete</key>
 			<true/>
+			<key>LastUpgradeAlertDate</key>
+			<date>2017-07-28T19:39:26Z</date>
 			<key>HasRunRegistrationDialog</key>
 			<true/>								
 			<key>UserDeclinedRegistration</key>
