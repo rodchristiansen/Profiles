@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>LabiTunesPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.LabiTunesPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>FF6E6E71-8390-4EB6-8C6C-3D8DC8532AD0</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.iTunes.ByHost</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.LabiTunesPrefs.6CD66B21-F42D-4D14-9E58-6EBA208C4D30</string>
+
+			<key>PayloadUUID</key>
+			<string>5663CAF4-E820-413F-BBEA-B24CC9C5883A</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>license-agreements</key>
+			<dict>
+				<key>EA1067</key>
+				<true/>
+			</dict>					
+
+		</dict>
+		
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.iTunes</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.LabiTunesPrefs.EA4C231A-F646-4312-A527-C9432B5F0047</string>
+
+			<key>PayloadUUID</key>
+			<string>4EAD85B2-19E8-476B-A5AE-7299B04EC293</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>license-agreements</key>
+			<dict>
+				<key>EA1067</key>
+				<true/>
+			</dict>
+			<key>disableAppleMusic</key>
+			<true/>
+			<key>disableArtistConnect</key>
+			<true/>
+			<key>disableMusicStore</key>
+			<true/>
+			<key>disableRadio</key>
+			<true/>
+			<key>disableSharedMusic</key>
+			<true/>
+			<key>doesAccountArtistListHaveSharePermission</key>
+			<false/>
+			<key>dontAutomaticallySyncIPods</key>
+			<true/>				
+		</dict>
+		
+	</array>
+</dict>
+</plist>
