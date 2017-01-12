@@ -21,6 +21,11 @@ Clean up a Profile downloaded from ProfileManager from a single line to proper x
 	plutil -convert binary1 /path/to/Profile.mobileconfig 
 	plutil -convert xml1 /path/to/Profile.mobileconfig 
 
+## Validate a plist or mobile config 
+Checks all the opening and closing dict, arrays, etc and other formatting errors in plists.
+
+	plutil -lint /path/to/Profile.plist
+
 # MasterProfileTemplate.mobileconfig
 
 In my struggles to understand and deploy profiles in the past few months led me to create a master template that is clear to understand and reproducible for many different system and application settings.
