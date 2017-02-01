@@ -2,58 +2,60 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.apple.notificationcenterui.ByHost</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>dndEnd</key>
-								<real>419</real>
-								<key>dndStart</key>
-								<real>420</real>
-								<key>doNotDisturb</key>
-								<false/>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<key>PayloadEnabled</key>
-			<true/>
-			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.mactech.DisableNotifications</string>
-			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
-			<key>PayloadUUID</key>
-			<string>900bfe0b-fd3d-4762-9a16-f4f1eca44d3c</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Sets Do Not Disturb from 7am to 6:59am, effectively turning Notification Off</string>
+
 	<key>PayloadDisplayName</key>
-	<string>DisableNotifications</string>
+	<string>DoNotDisturb</string>
+
 	<key>PayloadIdentifier</key>
-	<string>DisableNotifications</string>
-	<key>PayloadOrganization</key>
-	<string></string>
-	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<string>ca.ecuad.mactech.DisableNotifications</string>
+	
+	<key>PayloadUUID</key>
+	<string>2B272433-7A1C-442E-8629-C861F270C0BB</string>
+	
 	<key>PayloadScope</key>
 	<string>System</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>4132e7db-1a7d-46b4-9910-7598a311cd11</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.notificationcenterui.ByHost</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DisableNotifications.231360A1-7AA0-47CC-911B-45B3CB9AE145</string>
+
+			<key>PayloadUUID</key>
+			<string>8F40227C-BA13-4B0B-A001-16EADD02C71D</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>dndEnd</key>
+			<real>419</real>
+			<key>dndStart</key>
+			<real>420</real>
+			<key>doNotDisturb</key>
+			<false/>
+		</dict>	
+	</array>
 </dict>
 </plist>
