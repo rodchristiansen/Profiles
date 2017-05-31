@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>DisableSiri</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.DisableSiri</string>
+	
+	<key>PayloadUUID</key>
+	<string>C7593A47-68CE-45A9-802A-9C558F6FDB6D</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.assistant.support</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DisableSiri.633713DE-7B14-471A-90E5-B42A7166A6B4</string>
+
+			<key>PayloadUUID</key>
+			<string>73397F1F-AE03-425D-875F-5CF85915F0BC</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>Assistant Enabled</key>
+			<false/>
+	
+		</dict>
+		
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.Siri</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DisableSiri.B121DC19-6CFE-4ED0-A1D2-CE6199A7564C</string>
+
+			<key>PayloadUUID</key>
+			<string>8A1B6A23-148E-4BD8-94DC-7F957F686AF0</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>StatusMenuVisible</key>
+			<false/>
+			<key>UserHasDeclinedEnable</key>
+			<true/>
+	
+		</dict>
+		
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.DisableSiri.E120E264-008A-483F-832F-C8F2413BD097</string>
+
+			<key>PayloadDisplayName</key>
+			<string>Remove Menu Bar Siri Icon</string>
+
+			<key>PayloadUUID</key>
+			<string>1E1D6C80-139B-4613-A6A1-24A2E1FC8FAC</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>NSStatusItem Visible Siri</key>
+			<false/>
+	
+		</dict>
+		
+	</array>
+</dict>
+</plist>
