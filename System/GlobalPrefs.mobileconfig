@@ -52,9 +52,9 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-	                            <key>DSDontWriteNetworkStores</key>
-                                <true/>
-                                <key>NSDocumentSaveNewDocumentsToCloud</key>
+	                            				<key>DSDontWriteNetworkStores</key>
+                               					<true/>
+                               					<key>NSDocumentSaveNewDocumentsToCloud</key>
 								<false/>
 								<key>AppleLanguages</key>
 								<array>
