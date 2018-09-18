@@ -2,85 +2,83 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-
-	<key>PayloadDisplayName</key>
-	<string>AdobePrefs</string>
-
-	<key>PayloadIdentifier</key>
-	<string>ca.ecuad.mactech.AdobePrefs</string>
-	
-	<key>PayloadUUID</key>
-	<string>91A7BD07-7DB1-41D1-9DB0-184DF624244D</string>
-	
-	<key>PayloadScope</key>
-	<string>User</string>
-	
-	<key>PayloadDescription</key>
-	<string></string>
-	
-	<key>PayloadOrganization</key>
-	<string>EmilyCarrUniversity</string>
-	
-	<key>PayloadRemovalDisallowed</key>
-	<true/>	
-	
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-	
-	<key>PayloadType</key>
-	<string>Configuration</string>
-
 	<key>PayloadContent</key>
 	<array>
-
-		<dict>		
-			<key>PayloadType</key>
-			<string>com.adobe.Acrobat.Pro</string>
-
-			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.mactech.adobe.Acrobat.Pro.0156F908-A38B-454B-B5A9-BD405A729722</string>
-
-			<key>PayloadUUID</key>
-			<string>367CB364-C09A-48CD-9F7F-42745869A071</string>
-	
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.adobe.Acrobat.Pro</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2018-07-30T18:58:51Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DC</key>
+								<dict>
+									<key>AVAlert</key>
+									<dict>
+										<key>Checkbox</key>
+										<array>
+											<integer>8</integer>
+											<dict>
+												<key>OptionToOwn</key>
+												<array>
+													<integer>1</integer>
+													<integer>1</integer>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<key>EULAAcceptedForBrowser</key>
+									<true/>
+									<key>ShowSplashScreen</key>
+									<false/>
+									<key>Updater</key>
+									<dict>
+										<key>FirstTimeAppHasRun</key>
+										<array>
+											<integer>0</integer>
+											<false/>
+										</array>
+									</dict>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 			<key>PayloadEnabled</key>
 			<true/>
-
-			<key>DC</key>
-				<dict>
-				<key>AVAlert</key>
-					<dict>
-						<key>Checkbox</key>
-						<array>
-							<integer>8</integer>
-							<dict>
-								<key>OptionToOwn</key>
-									<integer>1</integer>
-							</dict>
-						</array>
-					</dict>								
-				</dict>
-			<key>EULAAcceptedForBrowser</key>
-			<true/>
-			<key>ShowSplashScreen</key>
-			<false/>
-			<key>AVGeneral</key>
-				<dict>			
-					<key>isFirstLaunch</key>
-					<array>
-					<integer>0</integer>
-					<false/>
-					</array>
-					<key>ShowSplashScreen</key>
-					<array>
-					<false/>
-					<integer>0</integer>
-					</array>
-				</dict>
-		</dict>		
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.b747a714-99b5-4b3f-9b81-63af9bb24e45.alacarte.customsettings.d2cb6776-af5e-4562-8c18-212e09ab17cc</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>FDF5B97A-1A9A-4AAC-8C32-BB7E83DFD3E8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>AcrobatPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.AcrobatPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E1F7DB03-BEF9-433C-83D8-AAAE9ED64E29</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
 </dict>
 </plist>
