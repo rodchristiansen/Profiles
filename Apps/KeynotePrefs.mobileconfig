@@ -2,56 +2,60 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadIdentifier</key>
-	<string>ca.ecuad.mactech.KeynotePrefs</string>
-	<key>PayloadRemovalDisallowed</key>
-	<true/>
-	<key>PayloadScope</key>
-	<string>System</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>E7D4A446-36C9-480C-AF60-DA71093731AC</string>
-	<key>PayloadOrganization</key>
-	<string>Emily Carr University</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+
 	<key>PayloadDisplayName</key>
 	<string>KeynotePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.KeynotePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>13EEC701-3545-4D5A-85A0-48745D2DDA2F</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
 	<key>PayloadContent</key>
 	<array>
-		<dict>
+
+		<dict>		
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.iWork.Keynote</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.KeynotePrefs.C37E6573-52AA-46C3-99B8-2D3005A7826C</string>
+
+			<key>PayloadUUID</key>
+			<string>46B1E819-ECAB-45CF-8D76-CDB992485DD4</string>
+	
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.profile.keynote</string>
-			<key>PayloadUUID</key>
-			<string>CCF9A2E3-5AB0-4EF4-8495-D287EC797D62</string>
+		
 			<key>PayloadEnabled</key>
 			<true/>
-			<key>PayloadDisplayName</key>
-			<string>KeynotePopUp</string>
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.apple.iWork.Keynote</key>
-				<dict>
-					<key>Set-Once</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>TMAFirstLaunchVersion</key>
-								<integer>65542</integer>
-								<key>TMAFirstLaunchCoachingTipShownKey</key>
-								<integer>1</integer>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
+
+			<key>TMAFirstLaunchVersion</key>
+			<integer>65549</integer>
+			
+			<key>TMAFirstLaunchCoachingTipShownKey</key>
+			<integer>1</integer>
 		</dict>
+
 	</array>
 </dict>
 </plist>
