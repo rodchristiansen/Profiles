@@ -4,6 +4,26 @@
 <dict>
 	<key>PayloadContent</key>
 	<array>
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.StudentMenuBar.0EF2F64D-F9A9-44A0-8EA2-F436DE2772C8</string>
+
+			<key>PayloadUUID</key>
+			<string>DDCA4821-AA22-41EA-BAA7-FBFA5FAC90DC</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>NSStatusItem Visible com.apple.menuextra.airport</key>
+			<false/>
+			
+		</dict>
 		<dict>
 			<key>PayloadContent</key>
 			<dict>
@@ -14,6 +34,10 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
+								<key>_FXSortFoldersFirst</key>
+								<true/>
+								<key>FXRemoveOldTrashItems</key>
+								<true/>
 								<key>AlwaysOpenWindowsInColumnView</key>
 								<true/>
 								<key>OpenWindowForNewRemovableDisk</key>
@@ -60,15 +84,15 @@
 										<key>iconSize</key>
 										<real>64</real>
 										<key>labelOnBottom</key>
-										<true/>
+								<true/>
 										<key>showIconPreview</key>
-										<true/>
+								<true/>
 										<key>showItemInfo</key>
 										<false/>
 										<key>textSize</key>
 										<real>12</real>
 										<key>viewOptionsVersion</key>
-										<integer>1</integer>
+						<integer>1</integer>
 									</dict>
 								</dict>
 								<key>DownloadsFolderListViewSettingsVersion</key>
@@ -189,7 +213,7 @@
 										<key>useRelativeDates</key>
 										<true/>
 										<key>viewOptionsVersion</key>
-										<integer>1</integer>
+								<integer>1</integer>
 									</dict>
 									<key>IconViewSettings</key>
 									<dict>
@@ -303,7 +327,7 @@
 												<key>visible</key>
 												<true/>
 												<key>width</key>
-												<integer>300</integer>
+										<integer>300</integer>
 											</dict>
 											<key>size</key>
 											<dict>
@@ -314,7 +338,7 @@
 												<key>visible</key>
 												<true/>
 												<key>width</key>
-												<integer>97</integer>
+										<integer>97</integer>
 											</dict>
 											<key>version</key>
 											<dict>
@@ -347,7 +371,7 @@
 								<key>FXArrangeGroupViewBy</key>
 								<string>Name</string>
 								<key>FXConnectToBounds</key>
-								<string>{{706, 797}, {486, 231}}</string>
+								<string>{{698, 404}, {486, 425}}</string>
 								<key>FXConnectToLastURL</key>
 								<string></string>
 								<key>FXDefaultSearchScope</key>
@@ -378,7 +402,7 @@
 								<key>FinderSpawnWindow</key>
 								<true/>
 								<key>GoToField</key>
-								<string>/Users/student/Library</string>
+								<string>/Library/Application Support/Scripts</string>
 								<key>MyDocsLibrarySavedViewStyle</key>
 								<string>Nlsv</string>
 								<key>MyDocsLibrarySearchViewSettings</key>
@@ -632,6 +656,8 @@
 										<true/>
 										<key>ShowSidebar</key>
 										<true/>
+										<key>SidebarSharedSectionDisclosedState</key>
+										<false/>
 										<key>ShowStatusBar</key>
 										<false/>
 										<key>ShowTabView</key>
@@ -660,7 +686,7 @@
 										<string>com.apple.finder.SRCH</string>
 									</array>
 									<key>TB Display Mode</key>
-									<integer>2</integer>
+									<integer>1</integer>
 									<key>TB Icon Size Mode</key>
 									<integer>1</integer>
 									<key>TB Is Shown</key>
@@ -671,10 +697,13 @@
 										<string>NSToolbarFlexibleSpaceItem</string>
 										<string>com.apple.finder.SWCH</string>
 										<string>com.apple.finder.ARNG</string>
-										<string>NSToolbarFlexibleSpaceItem</string>
+										<string>NSToolbarSpaceItem</string>
+										<string>com.apple.finder.SHAR</string>
+										<string>NSToolbarSpaceItem</string>
 										<string>com.apple.finder.NFLD</string>
-										<string>NSToolbarFlexibleSpaceItem</string>
 										<string>com.apple.finder.ACTN</string>
+										<string>com.apple.finder.EJCT</string>
+										<string>NSToolbarFlexibleSpaceItem</string>
 										<string>NSToolbarFlexibleSpaceItem</string>
 										<string>com.apple.finder.SRCH</string>
 									</array>
@@ -682,15 +711,13 @@
 									<integer>1</integer>
 								</dict>
 								<key>NewWindowTarget</key>
-								<string>PfHm</string>
+								<string>PfAF</string>
 								<key>NewWindowTargetPath</key>
-								<string>file:///Users/student/</string>
+								<string>file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch</string>
 								<key>PreferencesWindow.LastSelection</key>
 								<string>GNRL</string>
 								<key>ShowExternalHardDrivesOnDesktop</key>
 								<true/>
-								<key>ShowHardDrivesOnDesktop</key>
-								<false/>
 								<key>ShowMountedServersOnDesktop</key>
 								<true/>
 								<key>ShowRecentTags</key>
@@ -709,10 +736,10 @@
 								<real>197</real>
 								<key>SidebarZoneOrder1</key>
 								<array>
-									<string>favorites</string>
-									<string>devices</string>
-									<string>shared</string>
-									<string>tags</string>
+							<string>favorites</string>
+							<string>devices</string>
+							<string>shared</string>
+							<string>tags</string>
 								</array>
 								<key>StandardViewOptions</key>
 								<dict>
@@ -725,7 +752,7 @@
 										<key>ColumnShowIcons</key>
 										<true/>
 										<key>ColumnWidth</key>
-										<integer>205</integer>
+										<integer>330</integer>
 										<key>FontSize</key>
 										<integer>12</integer>
 										<key>PreviewDisclosureState</key>
@@ -1001,16 +1028,18 @@
 										<integer>1</integer>
 									</dict>
 									<key>SettingsType</key>
-									<string>StandardViewSettings</string>
+							<string>StandardViewSettings</string>
 								</dict>
 								<key>TrashViewSettings</key>
 								<dict>
+									<key>CustomViewStyle</key>
+									<string>Nlsv</string>
 									<key>CustomViewStyleVersion</key>
 									<integer>1</integer>
 									<key>ExtendedListViewSettings</key>
 									<dict>
 										<key>calculateAllSizes</key>
-										<false/>
+										<true/>
 										<key>columns</key>
 										<array>
 											<dict>
@@ -1021,7 +1050,7 @@
 												<key>visible</key>
 												<true/>
 												<key>width</key>
-												<integer>327</integer>
+												<integer>223</integer>
 											</dict>
 											<dict>
 												<key>ascending</key>
@@ -1115,13 +1144,143 @@
 											</dict>
 										</array>
 										<key>iconSize</key>
-										<real>16</real>
+										<real>32</real>
 										<key>showIconPreview</key>
 										<true/>
 										<key>sortColumn</key>
 										<string>name</string>
 										<key>textSize</key>
-										<real>12</real>
+										<real>14</real>
+										<key>useRelativeDates</key>
+										<true/>
+										<key>viewOptionsVersion</key>
+										<integer>1</integer>
+									</dict>
+									<key>ExtendedListViewSettingsV2</key>
+									<dict>
+										<key>calculateAllSizes</key>
+										<true/>
+										<key>columns</key>
+										<array>
+											<dict>
+												<key>ascending</key>
+												<true/>
+												<key>identifier</key>
+												<string>name</string>
+												<key>visible</key>
+												<true/>
+												<key>width</key>
+												<integer>604</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>ubiquity</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>35</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>dateModified</string>
+												<key>visible</key>
+												<true/>
+												<key>width</key>
+												<integer>181</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>dateCreated</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>181</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>size</string>
+												<key>visible</key>
+												<true/>
+												<key>width</key>
+												<integer>97</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<true/>
+												<key>identifier</key>
+												<string>kind</string>
+												<key>visible</key>
+												<true/>
+												<key>width</key>
+												<integer>115</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<true/>
+												<key>identifier</key>
+												<string>label</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>100</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<true/>
+												<key>identifier</key>
+												<string>version</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>75</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<true/>
+												<key>identifier</key>
+												<string>comments</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>300</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>dateLastOpened</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>200</integer>
+											</dict>
+											<dict>
+												<key>ascending</key>
+												<false/>
+												<key>identifier</key>
+												<string>dateAdded</string>
+												<key>visible</key>
+												<false/>
+												<key>width</key>
+												<integer>181</integer>
+											</dict>
+										</array>
+										<key>iconSize</key>
+										<real>32</real>
+										<key>showIconPreview</key>
+										<true/>
+										<key>sortColumn</key>
+										<string>dateModified</string>
+										<key>textSize</key>
+										<real>14</real>
 										<key>useRelativeDates</key>
 										<true/>
 										<key>viewOptionsVersion</key>
@@ -1130,7 +1289,7 @@
 									<key>ListViewSettings</key>
 									<dict>
 										<key>calculateAllSizes</key>
-										<false/>
+										<true/>
 										<key>columns</key>
 										<dict>
 											<key>comments</key>
@@ -1208,7 +1367,7 @@
 												<key>visible</key>
 												<true/>
 												<key>width</key>
-												<integer>327</integer>
+												<integer>604</integer>
 											</dict>
 											<key>size</key>
 											<dict>
@@ -1234,13 +1393,13 @@
 											</dict>
 										</dict>
 										<key>iconSize</key>
-										<real>16</real>
+										<real>32</real>
 										<key>showIconPreview</key>
 										<true/>
 										<key>sortColumn</key>
-										<string>name</string>
+										<string>dateModified</string>
 										<key>textSize</key>
-										<real>12</real>
+										<real>14</real>
 										<key>useRelativeDates</key>
 										<true/>
 										<key>viewOptionsVersion</key>
@@ -1250,8 +1409,6 @@
 									<dict>
 										<key>ContainerShowSidebar</key>
 										<true/>
-										<key>PreviewPaneVisibility</key>
-										<false/>
 										<key>ShowPathbar</key>
 										<true/>
 										<key>ShowSidebar</key>
@@ -1262,10 +1419,8 @@
 										<false/>
 										<key>ShowToolbar</key>
 										<true/>
-										<key>SidebarWidth</key>
-										<integer>135</integer>
 										<key>WindowBounds</key>
-										<string>{{999, 93}, {856, 472}}</string>
+										<string>{{751, 87}, {1177, 455}}</string>
 									</dict>
 								</dict>
 							</dict>
@@ -1284,30 +1439,6 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
-		
-		<dict>
-			<key>PayloadType</key>
-			<string>com.apple.sidebarlists</string>
-			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.mactech.StudentFinder.0C6C45E1-7061-469C-AED7-58D73AD3C64F</string>
-			<key>PayloadUUID</key>
-			<string>81D05F81-1AD6-424F-AAA3-E4D2B71DA9CC</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PayloadEnabled</key>
-			<true/>			
-
-			<key>ShowEjectables</key>
-			<false/>
-			<key>ShowHardDisks</key>
-			<false/>
-			<key>ShowRemovable</key>
-			<false/>
-			<key>ShowServers</key>
-			<true/>
-			
-		</dict>
-		
 	</array>
 	<key>PayloadDescription</key>
 	<string></string>
@@ -1318,7 +1449,7 @@
 	<key>PayloadOrganization</key>
 	<string>EmilyCarrUniversity</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadScope</key>
 	<string>User</string>
 	<key>PayloadType</key>
@@ -1329,3 +1460,4 @@
 	<integer>1</integer>
 </dict>
 </plist>
+			<false/>
