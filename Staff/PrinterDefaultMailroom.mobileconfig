@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>PrinterDefaultMailroom</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.PrinterDefaultMailroom</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3242a490-10b0-0134-ae7b-685b35b66dcf</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>PrinterDefaultMailroom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrinterDefaultMailroom.447aca90-10b0-0134-ae7c-685b35b66dcf</string>
+			<key>PayloadType</key>
+			<string>com.apple.mcxprinting</string>
+			<key>PayloadUUID</key>
+			<string>447aca90-10b0-0134-ae7c-685b35b66dcf</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DefaultPrinter</key>
+			<dict>
+				<key>DeviceURI</key>
+				<string>lpd://10.10.1.11</string>
+				<key>DisplayName</key>
+				<string>Mailroom Printer</string>
+			</dict>
+		</dict>
+	</array>
+
+</dict>
+</plist>
