@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>NewsPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.NewsPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>637AEA9C-D556-47AB-A6F4-D2E0DE4D201F</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.news</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.NewsPrefs.BB6E5B75-06AD-4EE2-AF98-71C91EBADC2C</string>
+
+			<key>PayloadUUID</key>
+			<string>B49D5FAB-BE2B-4400-AE9F-EFAFE4368E4A</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>onboarding_completed</key>
+			<true/>
+		</dict>		
+	</array>
+</dict>
+</plist>
