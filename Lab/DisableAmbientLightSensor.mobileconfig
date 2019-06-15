@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>DisableAmbientLightSensor</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.DisableAmbientLightSensor</string>
+	
+	<key>PayloadUUID</key>
+	<string>8D4AAFF5-D87E-4FC9-91C4-D03700F7FBDB</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.iokit.AmbientLightSensor</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AmbientLightSensor.DC48D40E-7CC0-48AC-A2E9-1D783D425678</string>
+
+			<key>PayloadUUID</key>
+			<string>4A669519-629B-4F98-A61B-D7200A4C2196</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>Automatic Display Enabled</key>
+			<false/>
+										
+		</dict>
+	</array>
+</dict>
+</plist>
