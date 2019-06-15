@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>AirDropPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.AirDropPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>80177C3B-CA67-469E-9279-9D417F4678B9</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AirDropPrefs.E923DFB3-53C3-43BF-A10E-21DC71B7845F</string>
+
+			<key>PayloadUUID</key>
+			<string>513D05F9-BE44-4E00-9785-E1ACC70FB8AE</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>DiscoverableMode</key>
+			<string>Everyone</string>							
+		</dict>
+
+	</array>
+</dict>
+</plist>
