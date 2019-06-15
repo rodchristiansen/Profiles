@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>					
+			<key>PayloadType</key>
+			<string>com.apple.mail-shared</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.MailPrefs.367CA585-8C64-4496-BC0C-AC4F8AC74603</string>
+			<key>PayloadUUID</key>
+			<string>22A8C863-7F68-4549-A970-42ADA400DC21</string>	
+			<key>PayloadVersion</key>
+			<integer>1</integer>		
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>AddressDisplayMode</key>
+			<integer>3</integer>
+		</dict>		
+	</array>
+	<key>PayloadDescription</key>
+	<string>Sets address field to display destination email for better user clarity.</string>
+	<key>PayloadDisplayName</key>
+	<string>MailPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.MailPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>376bf186-66c2-4b96-b557-d7c8fb52b51d</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
