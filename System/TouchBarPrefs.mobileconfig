@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>TouchBarPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.TouchBarPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>65555E56-9640-445D-97BB-6039823BF062</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.touchbar.agent</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.TouchBarPrefs.2821A26D-1887-424F-B1D3-CB866741E1A5</string>
+
+			<key>PayloadUUID</key>
+			<string>F2753FF1-5FAD-4D9D-A55F-89E0B01296B9</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>PresentationModeFnModes</key>
+			<dict>
+				<key>appWithControlStrip</key>
+				<string>fullControlStrip</string>
+			</dict>							
+		</dict>
+	</array>
+</dict>
+</plist>
