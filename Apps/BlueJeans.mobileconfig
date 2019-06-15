@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>BlueJeansPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.BlueJeansPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>9640586A-7E9E-4B81-9CD3-3B369B8C4E16</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.bluejeansnet.Blue</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.BlueJeansPrefs.F7BC643B-A755-4B7A-888E-860C520E682C</string>
+
+			<key>PayloadUUID</key>
+			<string>8182626C-B3ED-4D8A-8565-1971E9C98607</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+			
+				<key>AudioSelection</key>
+				<string>computer</string>
+				<key>SUAutomaticallyUpdate</key>
+				<false/>
+				<key>SUHasLaunchedBefore</key>
+				<true/>
+				<key>allowUpdates</key>
+				<true/>
+				<key>ftueShown_upgradeWelcome</key>
+				<true/>
+
+		</dict>
+	
+	</array>
+</dict>
+</plist>
