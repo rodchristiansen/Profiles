@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>AdminSecurity</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.AdminSecurityPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>808E4B23-EEE1-4AB5-8CA9-EF102CD95B09</string>
+	
+	<key>PayloadScope</key>
+	<string>User</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<false/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.preference.security</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AdminSecurityPrefs.8FBC8E10-1197-4B1E-817A-B5DE745287F1</string>
+
+			<key>PayloadUUID</key>
+			<string>765A4FAA-B4BC-4EAD-A7C9-35F5F3B4FAAC</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>dontAllowLockMessageUI</key>
+			<true/>
+			<key>dontAllowPasswordResetUI</key>
+			<true/>							
+		</dict>
+	
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AdminSecurityPrefs.F0FCE4B6-7507-4329-862E-9B81DB4633EB</string>
+
+			<key>PayloadUUID</key>
+			<string>98D9F0B5-30D8-4E42-9B17-DDD9780496EA</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>askForPassword</key>
+			<true/>
+			<key>askForPasswordDelay</key>
+			<real>0</real>
+			<key>idleTime</key>
+			<integer>0</integer>			
+		</dict>
+		
+	</array>
+</dict>
+</plist>
