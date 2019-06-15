@@ -14,12 +14,18 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
+								<key>autoLoginUser</key>
+								<string>student</string>
+								<key>LoginwindowText</key>
+								<string>If you are asked for a password, simply press enter on the keyboard.</string>
 								<key>AdminHostInfo</key>
 								<string>HostName</string>
 								<key>TALLogoutSavesState</key>
 								<false/>
-								<key>LoginHook</key>
-								<string>/Users/admin/Documents/OtherUtilities/RsyncX/LoginHook/hook.command</string>
+								<key>ShutDownDisabledWhileLoggedIn</key>
+								<true/>
+								<key>DisableScreenLockImmediate</key>
+								<true/>
 							</dict>
 						</dict>
 					</array>
