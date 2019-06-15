@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>AdminMenuBar</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.AdminMenuBar</string>
+	
+	<key>PayloadUUID</key>
+	<string>7AADAA1F-D0CE-46A3-A34D-E4044A3157AD</string>
+	
+	<key>PayloadScope</key>
+	<string>User</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<false/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver.ByHost</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AdminMenuBar.53762579-0239-460B-AED2-59C22FD99BC2</string>
+
+			<key>PayloadUUID</key>
+			<string>9DF7C464-55D6-47B4-AF57-44CA22905F08</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>dontAutoLoad</key>
+			<array>
+				<string>/System/Library/CoreServices/Menu Extras/AirPort.menu</string>
+			</array>
+
+		</dict>
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.AdminMenuBar.029C0E7C-40D0-4BDC-9660-6A59517AFBBD</string>
+
+			<key>PayloadUUID</key>
+			<string>0F86343C-4616-4EAF-8DEE-4449993E9A03</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>NSStatusItem Visible Siri</key>
+			<false/>
+			<key>NSStatusItem Visible com.apple.menuextra.TimeMachine</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.menuextra.airplay</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.menuextra.airport</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.menuextra.appleuser</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.menuextra.clock</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.menuextra.volume</key>
+			<true/>
+			<key>NSStatusItem Visible com.apple.scriptmenu</key>
+			<true/>
+
+			<key>menuExtras</key>
+			<array>
+				<string>/System/Library/CoreServices/Menu Extras/User.menu</string>
+				<string>/System/Library/CoreServices/Menu Extras/Clock.menu</string>
+				<string>/System/Library/CoreServices/Menu Extras/Displays.menu</string>
+				<string>/System/Library/CoreServices/Menu Extras/Script Menu.menu</string>
+			</array>
+
+		</dict>
+	</array>
+</dict>
+</plist>
