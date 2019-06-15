@@ -53,7 +53,7 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>LastSafariVersionWithWelcomePage</key>
-								<string>11.1.2</string>
+								<string>12.0.3</string>
 								
 								<key>AutoOpenSafeDownloads</key>
 								<false/>
@@ -73,78 +73,10 @@
 										<key>PlugInFirstVisitPolicy</key>
 										<string>PlugInPolicyAllowWithSecurityRestrictions</string>
 									</dict>
-									<key>com.adobe.acrobat.pdfviewerNPAPI</key>
-									<dict>
-										<key>PlugInFirstVisitPolicy</key>
-										<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-										<key>PlugInHostnamePolicies</key>
-										<array>
-											<dict>
-												<key>PlugInHostname</key>
-												<string>file:///</string>
-												<key>PlugInPolicy</key>
-												<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-												<key>PlugInRunUnsandboxed</key>
-												<false/>
-											</dict>
-										</array>
-										<key>PlugInLastUsedDate</key>
-										<date>2017-12-14T17:15:18Z</date>
-									</dict>
-									<key>com.microsoft.SilverlightPlugin</key>
-									<dict>
-										<key>PlugInDisallowPromptBeforeUseDialog</key>
-										<true/>
-										<key>PlugInFirstVisitPolicy</key>
-										<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-										<key>PlugInHostnamePolicies</key>
-										<array>
-											<dict>
-												<key>PlugInHostname</key>
-												<string>ecu-production.colleagueservices.ca</string>
-												<key>PlugInIsFreshlyExpired</key>
-												<false/>
-												<key>PlugInLastVisitedDate</key>
-												<date>2017-01-31T19:32:59Z</date>
-												<key>PlugInPageURL</key>
-												<string>https://ecu-production.colleagueservices.ca/Production/sl/index</string>
-												<key>PlugInPolicy</key>
-												<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-												<key>PlugInRunUnsandboxed</key>
-												<false/>
-											</dict>
-											<dict>
-												<key>PlugInHostname</key>
-												<string>myec.ecuad.ca</string>
-												<key>PlugInIsFreshlyExpired</key>
-												<false/>
-												<key>PlugInLastVisitedDate</key>
-												<date>2017-01-31T19:32:59Z</date>
-												<key>PlugInPageURL</key>
-												<string>https://myec.ecuad.ca/</string>
-												<key>PlugInPolicy</key>
-												<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-												<key>PlugInRunUnsandboxed</key>
-												<false/>
-											</dict>
-										</array>
-										<key>PlugInLastUsedDate</key>
-										<date>2016-09-29T00:09:53Z</date>
-									</dict>
-									<key>com.oracle.java.JavaAppletPlugin</key>
-									<dict>
-										<key>PlugInFirstVisitPolicy</key>
-										<string>PlugInPolicyAllowWithSecurityRestrictions</string>
-									</dict>
 								</dict>
 								<key>PlugInInfo</key>
 								<dict>
 									<key>com.macromedia.Flash Player.plugin</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.microsoft.SilverlightPlugin</key>
 									<dict>
 										<key>plugInCurrentState</key>
 										<true/>
@@ -154,41 +86,6 @@
 										<key>plugInCurrentState</key>
 										<true/>
 									</dict>
-									<key>com.oracle.java.JavaAppletPlugin</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.AdobeAAMDetectLib.AdobeAAMDetect</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.AdobeExManDetectLib.AdobeExManDetect</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.Google.GoogleEarthPlugin.plugin</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.adobe.acrobat.pdfviewerNPAPI</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.google.googletalkbrowserplugin</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>
-									<key>com.google.o1dbrowserplugin</key>
-									<dict>
-										<key>plugInCurrentState</key>
-										<true/>
-									</dict>											
 								</dict>
 							</dict>
 						</dict>
