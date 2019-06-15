@@ -1,8 +1,6 @@
 A repository of macOS .mobileconfig Profiles for a myriad of system and user preferences
 
 # THE BIG PROFILES PROJECT
-(i.e. WorkGroupMgr we don't like you, be gone)
-
 ## Profile Command line management
 Use /usr/bin/profiles 
 
@@ -34,12 +32,8 @@ Containing commentary on each section this is a great way for first timers in th
 
 https://github.com/rodchristiansen/Profiles/blob/master/MasterProfileTemplate.mobileconfig
 
-The MasterProfileTemplate.mobileconfig can be deployed as is by simply replacing the indicated relevant areas to what your profile is to accomplish. Save it as a .mobileconfig and deploy it. Keep the comments in place if you’d like, it works perfectly fine with them included in my testing.
+The MasterProfileTemplate.mobileconfig can be deployed as is by simply replacing the indicated relevant areas to what your profile is to accomplish. Save it as a .mobileconfig and deploy it. Keep the comments in place if you’d like, it works perfectly fine with them included.
 
-This is a manual process than the very intelligently created [MCXtoProfile](https://github.com/timsutton/mcxToProfile), which is what you’ll likely need if targeting MCX settings for your .mobileconfig. This master template can be works well for .plists you have access to read and copy the keys on your environment.
+All of our profiles come from this master standard template. It's an artisanal process that we will probably automate more in the future.
 
-## Resources
-https://github.com/timsutton/mcxToProfile  
-https://github.com/nmcspadden/Profiles  
-http://krypted.com/mac-security/using-the-profiles-command-in-yosemite/  
-http://www.amsys.co.uk/2015/02/creating-config-profiles-instead-first-boot-script/
+I'll point you to the excellent ProfileCreator as an option: https://github.com/erikberglund/ProfileCreator
