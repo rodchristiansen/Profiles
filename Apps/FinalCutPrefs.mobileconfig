@@ -53,6 +53,11 @@
 			<true/>					
 			<key>LKLastWhatsNewVersionDisplayed</key>
 			<integer>1</integer>
+			<key>LKWhatsNewDisplayedForAppVersion</key>
+			<dict>
+				<key>10.4.6</key>
+				<true/>
+			</dict>
 		</dict>
 	</array>
 </dict>
