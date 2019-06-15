@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>ScriptsMenuPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.mactech.ScriptsMenuPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>02A8BD4F-1EB7-48F5-8996-AC0D9B8589B7</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.scriptmenu</string>
+
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.ScriptsMenuPrefs.A1DAC8D7-E4AC-4360-9400-8E2BA45DCC14</string>
+
+			<key>PayloadUUID</key>
+			<string>E80EE4A4-8887-4085-B6C2-CD6EB6ABF374</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>ShowLibraryScripts</key>
+			<true/>
+			<key>PutAppScriptsFirst</key>
+			<false/>
+								
+		</dict>
+	</array>
+</dict>
+</plist>
