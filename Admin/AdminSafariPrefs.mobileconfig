@@ -4,10 +4,10 @@
 <dict>
 
 	<key>PayloadDisplayName</key>
-	<string>AdminSafariPrefs</string>
+	<string>AdminSafari</string>
 
 	<key>PayloadIdentifier</key>
-	<string>ca.ecuad.mactech.AdminSafariPrefs</string>
+	<string>ca.ecuad.mactech.AdminSafari</string>
 	
 	<key>PayloadUUID</key>
 	<string>FBA43009-63B5-4D7A-8747-C4FB92F68849</string>
@@ -22,7 +22,7 @@
 	<string>EmilyCarrUniversity</string>
 	
 	<key>PayloadRemovalDisallowed</key>
-	<true/>	
+	<false/>	
 	
 	<key>PayloadVersion</key>
 	<integer>1</integer>
@@ -35,10 +35,10 @@
 
 		<dict>		
 			<key>PayloadType</key>
-			<string>com.apple.Safari</string>
+			<string>com.apple.Safari.plist</string>
 
 			<key>PayloadIdentifier</key>
-			<string>ca.ecuad.mactech.AdminSafariPrefs.0AFA5EC0-066E-4DF4-A3C8-C35AC99BEDB0</string>
+			<string>ca.ecuad.mactech.AdminSafari.0AFA5EC0-066E-4DF4-A3C8-C35AC99BEDB0</string>
 
 			<key>PayloadUUID</key>
 			<string>B8E2D3B7-3F59-46D9-8455-F32662B9476C</string>
@@ -66,13 +66,19 @@
 			<key>AutoShowToolbarInFullScreen</key>
 			<false/>
 			<key>CanPromptForPushNotifications</key>
-			<false/>					
+			<false/>
+			<key>DownloadsPath</key>
+			<string>~/Desktop</string>
 			<key>ExtensionsEnabled</key>
+			<false/>
+			<key>IncludeDevelopMenu</key>
 			<true/>
 			<key>HomePage</key>
 			<string>favorites://</string>
+			<key>LastOSVersionSafariWasLaunchedOn</key>
+			<string>10.12.3</string>
 			<key>LastSafariVersionWithWelcomePage</key>
-			<string>9.0</string>
+			<string>10.0.3</string>
 			<key>LocalFileRestrictionsEnabled</key>
 			<true/>
 			<key>SendDoNotTrackHTTPHeader</key>
@@ -83,6 +89,8 @@
 			<true/>
 			<key>ShowSidebarInTopSites</key>
 			<false/>
+			<key>WebKitDeveloperExtrasEnabledPreferenceKey</key>
+			<true/>
 		</dict>	
 	</array>
 </dict>
