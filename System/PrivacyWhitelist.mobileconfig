@@ -1,0 +1,432 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Wacom Tablet Accessibility</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.79E0CBCA-8803-11E9-BEEB-787B8ADFAB32</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>79E0CBCA-8803-11E9-BEEB-787B8ADFAB32</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.wacom.wacomtablet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for WacomTabletDriver</string>
+						<key>Identifier</key>
+						<string>com.wacom.wacomtablet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Remote Management</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.568053F0-2453-11E9-9AA5-D0817AD45775</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>568053F0-2453-11E9-9AA5-D0817AD45775</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+			  <key>PostEvent</key>
+			  <array>
+			    <dict>
+			      <key>Allowed</key>
+			      <true/>
+			      <key>CodeRequirement</key>
+			      <string>identifier "com.apple.screensharing.agent" and anchor apple</string>
+			      <key>Comment</key>
+			      <string>Allow Control mode when starting Remote Management via kickstart</string>
+			      <key>Identifier</key>
+			      <string>com.apple.screensharing.agent</string>
+			      <key>IdentifierType</key>
+			      <string>bundleID</string>
+			    </dict>
+			  </array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>BBEdit 12.6 Privacy Access</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.tccprofile.309BD3F0-4431-11E9-A3E7-787B8ADB57F2</string>
+			<key>PayloadOrganization</key>
+			<string>My Org Name</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>309BD3F0-4431-11E9-A3E7-787B8ADB57F2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.barebones.bbedit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = W52GZAXT98)</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for BBEdit</string>
+						<key>Identifier</key>
+						<string>com.barebones.bbedit</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Accessibility control for Ableton Live 10 Suite</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.tccprofile.AF80F440-E38B-11E8-80C9-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>AF80F440-E38B-11E8-80C9-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.ableton.live" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for Ableton Live 10 Suite</string>
+						<key>Identifier</key>
+						<string>com.ableton.live</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Photos control for Final Cut Pro</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.CA167DC0-E304-11E8-9CBD-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>CA167DC0-E304-11E8-9CBD-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Photos</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.FinalCut"</string>
+						<key>Comment</key>
+						<string>Allow Photos control for Final Cut Pro</string>
+						<key>Identifier</key>
+						<string>com.apple.FinalCut</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Adobe After Effects CC 2018 to send AppleEvents control to Finder</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.09B2249E-E2CB-11E8-A023-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>09B2249E-E2CB-11E8-A023-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.finder" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.finder</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD)</string>
+						<key>Comment</key>
+						<string>Allow Adobe After Effects CC 2018 to send AppleEvents control to Finder</string>
+						<key>Identifier</key>
+						<string>com.adobe.AfterEffects</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Adobe Acrobat to send AppleEvents control to Microsoft PowerPoint</string>
+			<key>PayloadIdentifier</key>
+			<string>com.my.tccprofile.0F7F14AB-E2CA-11E8-B3FC-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>0F7F14AB-E2CA-11E8-B3FC-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.Powerpoint" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.Powerpoint</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD)</string>
+						<key>Comment</key>
+						<string>Allow Adobe Acrobat to send AppleEvents control to Microsoft PowerPoint</string>
+						<key>Identifier</key>
+						<string>com.adobe.Acrobat.Pro</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow BBEdit to send AppleEvents control to Terminal</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.8EFD1D4F-E245-11E8-B2ED-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>8EFD1D4F-E245-11E8-B2ED-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.Terminal</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.barebones.bbedit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = W52GZAXT98)</string>
+						<key>Comment</key>
+						<string>Allow BBEdit to send AppleEvents control to Terminal</string>
+						<key>Identifier</key>
+						<string>com.barebones.bbedit</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Accessibility control for Automator</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.2D098F59-E245-11E8-B0D3-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>2D098F59-E245-11E8-B0D3-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Automator" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for Automator</string>
+						<key>Identifier</key>
+						<string>com.apple.Automator</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Accessibility control for Adobe Photoshop CC 2018</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.BACC3F0A-E244-11E8-8E87-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>BACC3F0A-E244-11E8-8E87-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD)</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for Adobe Photoshop CC 2018</string>
+						<key>Identifier</key>
+						<string>com.adobe.Photoshop</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allow Adobe Illustrator to send AppleEvents control to WacomTabletDriver</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.0ACCD3E6-E242-11E8-BB29-787B8AC9687B</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>0ACCD3E6-E242-11E8-BB29-787B8AC9687B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.wacom.wacomtablet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.wacom.wacomtablet</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.adobe.illustrator" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD</string>
+						<key>Comment</key>
+						<string>Allow Adobe Illustrator to send AppleEvents control to WacomTabletDriver</string>
+						<key>Identifier</key>
+						<string>com.adobe.illustrator</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Allows Terminal Full Disk Access</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.ecuad.mactech.PrivacyWhitelist.8A825EB5-E239-11E8-AC65-ACDE48001122</string>
+			<key>PayloadOrganization</key>
+			<string>EmilyCarrUniversity</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>8A825EB5-E239-11E8-AC65-ACDE48001122</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for Terminal</string>
+						<key>Identifier</key>
+						<string>com.apple.Terminal</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>PrivacyWhitelist</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.ecuad.macadmin.PrivacyWhitelist</string>
+	<key>PayloadOrganization</key>
+	<string>EmilyCarrUniversity</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9746FC94-A7C9-48CF-B752-AA4D80658080</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
